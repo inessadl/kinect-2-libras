@@ -1,12 +1,25 @@
 ﻿<Window x:Class="Kinect2Libras.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Kinect2Libras"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow"
+        Height="950" Width="1400"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded">
+
     <Grid>
-        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="80" />
+            </Grid.RowDefinitions>
+            
+            <Frame Grid.Row="0" Name="frame" NavigationUIVisibility="Hidden" />
+
+            <Grid Grid.Row="1" Background="DarkSlateGray" TextElement.Foreground="White" Margin="0,20,0,0">
+                <!-- TODO style it - and check if is the right field (content control) -->
+                <ContentControl>Developed by Projeto LIKI (2016)</ContentControl>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
