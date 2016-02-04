@@ -25,7 +25,7 @@ namespace Kinect2Libras
 
         private void Contact_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://github.com/");
+            System.Diagnostics.Process.Start("http://github.com/inessadl/kinect-2-libras");
         }
     }
 }

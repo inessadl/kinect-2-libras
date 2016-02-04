@@ -16,7 +16,7 @@
             
             <Frame Grid.Row="0" Name="frame" NavigationUIVisibility="Hidden" />
 
-            <Grid Grid.Row="1" Background="#37c1d0" Margin="0,20,0,0">
+            <Grid Grid.Row="1" Background="DarkGray" Margin="0,20,0,0">
                 <Button Style="{StaticResource ButtonPurchaseStyle}" Content="Developed by Projeto LIKI" Click="Contact_Click" />
             </Grid>
         </Grid>

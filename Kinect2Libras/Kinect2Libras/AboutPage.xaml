@@ -29,7 +29,37 @@
         </Grid>
 
         <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
-
+            <TextBlock Style="{StaticResource SubheaderTextBlockStyle}">
+                <Bold Foreground="Gray">
+                        <Run Text="Developed by:" />
+                </Bold>
+                <LineBreak />
+                
+                <LineBreak /> Projeto LIKI: LIBRAS e Kinect Aplicados a Tecnologias Assistivas 
+                <LineBreak /> Universidade Federal de Pelotas
+                <LineBreak /> Instituto Federal Sul-rio-grandense
+                <LineBreak />
+                <LineBreak />
+                
+                <Bold Foreground="Gray">
+                        <Run Text="Developers:" />
+                </Bold>
+                
+                <LineBreak />
+                <LineBreak /> Inessa Luerce
+                <LineBreak />
+                <LineBreak />
+                
+                <Bold Foreground="Gray">
+                        <Run Text="Contact:" />
+                </Bold>
+                
+                <LineBreak />
+                <LineBreak /> @inf.ufpel.edu.br
+                <LineBreak />
+                
+                
+            </TextBlock>
         </ScrollViewer>
     </Grid>
 </Page>
