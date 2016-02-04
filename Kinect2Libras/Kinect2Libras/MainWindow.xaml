@@ -16,9 +16,8 @@
             
             <Frame Grid.Row="0" Name="frame" NavigationUIVisibility="Hidden" />
 
-            <Grid Grid.Row="1" Background="DarkSlateGray" TextElement.Foreground="White" Margin="0,20,0,0">
-                <!-- TODO style it - and check if is the right field (content control) -->
-                <ContentControl>Developed by Projeto LIKI (2016)</ContentControl>
+            <Grid Grid.Row="1" Background="#37c1d0" Margin="0,20,0,0">
+                <Button Style="{StaticResource ButtonPurchaseStyle}" Content="Developed by Projeto LIKI" Click="Contact_Click" />
             </Grid>
         </Grid>
     </Grid>

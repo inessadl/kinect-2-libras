@@ -19,13 +19,13 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" Grid.Column="0"  Background="DarkGray" Content="Finger Tracking" Click="FingerTracking_Click" />
-        <Button Grid.Row="1" Grid.Column="0"  Background="DarkGray" Content="Head Tracking" Click="HeadTracking_Click" />
-        <Button Grid.Row="2" Grid.Column="0"  Background="Gray" Content="Tutorial" Click="Tutorial_Click" />
+        <Button Grid.Row="0" Grid.Column="0"  Style="{StaticResource ButtonTileStyle}" Content="Finger Tracking" Click="FingerTracking_Click" />
+        <Button Grid.Row="1" Grid.Column="0"  Style="{StaticResource ButtonTileStyle}" Content="Head Tracking" Click="HeadTracking_Click" />
+        <Button Grid.Row="2" Grid.Column="0"  Style="{StaticResource ButtonTileStyle}" Content="Tutorial" Click="Tutorial_Click" />
 
-        <Button Grid.Row="0" Grid.Column="1"  Background="DarkGray" Content="Simple Gesture" Click="SimpleGesture_Click" />
-        <Button Grid.Row="1" Grid.Column="1"  Background="DarkGray" Content="LIBRAS Gesture" Click="LibrasGesture_Click" />
-        <Button Grid.Row="2" Grid.Column="1"  Background="Gray" Content="About" Click="About_Click" />
+        <Button Grid.Row="0" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}" Content="Simple Gesture" Click="SimpleGesture_Click" />
+        <Button Grid.Row="1" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}" Content="LIBRAS Gesture" Click="LibrasGesture_Click" />
+        <Button Grid.Row="2" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}" Content="About" Click="About_Click" />
 
     </Grid>
 </Page>
