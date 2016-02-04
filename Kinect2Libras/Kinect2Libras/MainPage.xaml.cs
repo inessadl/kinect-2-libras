@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using LightBuzz.Vitruvius;
 
 namespace Kinect2Libras
 {
@@ -25,5 +24,37 @@ namespace Kinect2Libras
         {
             InitializeComponent();
         }
+
+        public void FingerTracking_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new FingerTrackingPage());
+        }
+
+        public void HeadTracking_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new HeadTrackingPage());
+        }
+
+        public void SimpleGesture_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new SimpleGesturePage());
+        }
+
+        public void LibrasGesture_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new LibrasGesturePage());
+        }
+
+        public void Tutorial_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new TutorialPage());
+        }
+
+        public void About_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AboutPage());
+        }
+
+
     }
 }
