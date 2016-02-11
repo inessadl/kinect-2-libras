@@ -9,20 +9,13 @@
       Title="FingerTrackingPage">
 
     <Grid>
-        <!--<Grid.RowDefinitions>
+        <Grid.RowDefinitions>
             <RowDefinition Height="90"/>
             <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>-->
-        <Viewbox>
-            <Grid Width="512" Height="424">
-                <Image Name="camera" />
-                <Canvas Name="canvas" />
-            </Grid>
-        </Viewbox>
-
+        </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid>
+        <Grid Grid.Column="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="90"/>
                 <ColumnDefinition Width="*"/>
@@ -30,12 +23,22 @@
             <Button x:Name="backButton" Click="Back_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
-                    VerticalAlignment="Center"/>
+                    VerticalAlignment="Center"
+                    AutomationProperties.Name="Back"
+                    AutomationProperties.AutomationId="BackButton"
+                    AutomationProperties.ItemType="Navigation Button"/>
             <TextBlock x:Name="pageTitle" Text="Finger Tracking" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
         </Grid>
 
-        
+        <Grid Grid.Row="1">
+            <Viewbox>
+                <Grid Width="512" Height="424">
+                    <Image Name="camera" />
+                    <Canvas Name="canvas" />
+                </Grid>
+            </Viewbox>
+        </Grid>
         
         <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
 
