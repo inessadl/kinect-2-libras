@@ -9,10 +9,17 @@
       Title="FingerTrackingPage">
 
     <Grid>
-        <Grid.RowDefinitions>
+        <!--<Grid.RowDefinitions>
             <RowDefinition Height="90"/>
             <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        </Grid.RowDefinitions>-->
+        <Viewbox>
+            <Grid Width="512" Height="424">
+                <Image Name="camera" />
+                <Canvas Name="canvas" />
+            </Grid>
+        </Viewbox>
+
 
         <!-- Back button and page title -->
         <Grid>
@@ -28,6 +35,8 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
         </Grid>
 
+        
+        
         <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
 
         </ScrollViewer>

@@ -1,28 +1,18 @@
-﻿using System;
+﻿using LightBuzz.Vitruvius.FingerTracking;
+using Microsoft.Kinect;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using LightBuzz.Vitruvius.FingerTracking;
-using Microsoft.Kinect;
-using LightBuzz.Vitruvius;
 
-
-namespace Kinect2Libras
+namespace KinectFingerTracking
 {
     /// <summary>
-    /// Interaction logic for FingerTrackingPage.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class FingerTrackingPage : Page
+    public partial class MainWindow : Window
     {
         private KinectSensor _sensor = null;
         private InfraredFrameReader _infraredReader = null;
@@ -34,7 +24,10 @@ namespace Kinect2Libras
         // Create a new reference of a HandsController.
         private HandsController _handsController = null;
 
-        public FingerTrackingPage()
+        /// <summary>
+        /// The main window of the app.
+        /// </summary>
+        public MainWindow()
         {
             InitializeComponent();
 
@@ -176,14 +169,6 @@ namespace Kinect2Libras
 
             Canvas.SetLeft(ellipse, point.X - radius / 2.0);
             Canvas.SetTop(ellipse, point.Y - radius / 2.0);
-        }
-
-        private void Back_Click(object sender, RoutedEventArgs e)
-        {
-            if (NavigationService.CanGoBack)
-            {
-                NavigationService.GoBack();
-            }
         }
     }
 }
