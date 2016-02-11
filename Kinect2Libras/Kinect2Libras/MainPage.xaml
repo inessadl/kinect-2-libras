@@ -24,7 +24,7 @@
         <Button Grid.Row="2" Grid.Column="0"  Style="{StaticResource ButtonTileStyle}"  Content="Tutorial" Click="Tutorial_Click" />
 
         <Button Grid.Row="0" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}"  Content="Simple Gesture" Click="SimpleGesture_Click" />
-        <Button Grid.Row="1" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}"  Content="LIBRAS Gesture" Click="LibrasGesture_Click" />
+        <Button Grid.Row="1" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}"  Content="Camera" Click="Camera_Click" />
         <Button Grid.Row="2" Grid.Column="1"  Style="{StaticResource ButtonTileStyle}"  Content="About" Click="About_Click" />
 
     </Grid>

@@ -40,9 +40,9 @@ namespace Kinect2Libras
             NavigationService.Navigate(new SimpleGesturePage());
         }
 
-        public void LibrasGesture_Click(object sender, RoutedEventArgs e)
+        public void Camera_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new LibrasGesturePage());
+            NavigationService.Navigate(new CameraPage());
         }
 
         public void Tutorial_Click(object sender, RoutedEventArgs e)
