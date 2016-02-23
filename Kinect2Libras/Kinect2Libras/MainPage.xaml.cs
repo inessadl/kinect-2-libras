@@ -49,6 +49,9 @@ namespace Kinect2Libras
             NavigationService.Navigate(new AboutPage());
         }
 
+        private void Button_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
 
+        }
     }
 }
