@@ -19,13 +19,14 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" Grid.Column="0"  Style="{StaticResource MainPageButton}"  Content="Finger Tracking" Click="FingerTracking_Click" />
-        <Button Grid.Row="1" Grid.Column="0"  Style="{StaticResource MainPageButton}"  Content="Head Tracking" Click="HeadTracking_Click" />
+
+        <Button Grid.Row="0" Grid.Column="0"  Style="{StaticResource MainPageButton}"  Content="Camera" Click="Camera_Click" />
+        <Button Grid.Row="0" Grid.Column="1"  Style="{StaticResource MainPageButton}"  Content="Mapear mão" Click="FingerTracking_Click" />
+
+        <Button Grid.Row="1" Grid.Column="0"  Style="{StaticResource MainPageButton}"  Content="Gesto simples" Click="SimpleGesture_Click" />
+        <Button Grid.Row="1" Grid.Column="1"  Style="{StaticResource MainPageButton}"  Content="Head Tracking" Click="HeadTracking_Click" />
+
         <Button Grid.Row="2" Grid.Column="0"  Style="{StaticResource MainPageButton}"  Content="Tutorial" Click="Tutorial_Click" />
-
-        <Button Grid.Row="0" Grid.Column="1"  Style="{StaticResource MainPageButton}"  Content="Simple Gesture" Click="SimpleGesture_Click" />
-        <Button Grid.Row="1" Grid.Column="1"  Style="{StaticResource MainPageButton}"  Content="Camera" Click="Camera_Click" />
-        <Button Grid.Row="2" Grid.Column="1"  Style="{StaticResource MainPageButton}"  Content="About" Click="About_Click" />
-
+        <Button Grid.Row="2" Grid.Column="1"  Style="{StaticResource MainPageButton}"  Content="Sobre" Click="About_Click" />
     </Grid>
 </Page>

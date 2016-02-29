@@ -24,14 +24,14 @@
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"/>
-            <TextBlock x:Name="pageTitle" Text="Tutorial Section" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" Text="Tutorial" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
         </Grid>
 
         <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
             <TextBlock Style="{StaticResource SubheaderTextBlockStyle}">
                 <Bold Foreground="Gray">
-                        <Run Text="Here we will show how the software works." />
+                        <Run Text="Instruções sobre utilização do software" />
                 </Bold>
                 
                 <LineBreak /> Kinect2Libras

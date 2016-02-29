@@ -24,14 +24,14 @@
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"/>
-            <TextBlock x:Name="pageTitle" Text="About" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" Text="Sobre" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
         </Grid>
 
         <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
             <TextBlock Style="{StaticResource SubheaderTextBlockStyle}">
                 <Bold Foreground="Gray">
-                        <Run Text="Developed by:" />
+                        <Run Text="Desenvolvido por:" />
                 </Bold>
                 <LineBreak />
                 
@@ -42,7 +42,7 @@
                 <LineBreak />
                 
                 <Bold Foreground="Gray">
-                        <Run Text="Developers:" />
+                        <Run Text="Desenvolvedores:" />
                 </Bold>
                 
                 <LineBreak />
@@ -51,14 +51,24 @@
                 <LineBreak />
                 
                 <Bold Foreground="Gray">
-                        <Run Text="Contact:" />
+                        <Run Text="Contato:" />
                 </Bold>
                 
                 <LineBreak />
                 <LineBreak /> @inf.ufpel.edu.br
                 <LineBreak />
+                <LineBreak />
                 
+                <Bold Foreground="Gray">
+                        <Run Text="Disponível em:" />
+                </Bold>
                 
+                <LineBreak />
+                <LineBreak /> https://github.com/inessadl/kinect-2-libras
+                <LineBreak />
+
+
+
             </TextBlock>
         </ScrollViewer>
     </Grid>

@@ -24,7 +24,7 @@
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"/>
-            <TextBlock x:Name="pageTitle" Text="Simple Gesture" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" Text="Gesto simples" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
         </Grid>
 

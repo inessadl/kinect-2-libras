@@ -17,7 +17,7 @@
             <Frame Grid.Row="0" Name="frame" NavigationUIVisibility="Hidden" />
 
             <Grid Grid.Row="1" Background="DarkGray" Margin="0,20,0,0">
-                <Button Style="{StaticResource FooterButton}" Content="Developed by Projeto LIKI" Click="Contact_Click" />
+                <Button Style="{StaticResource FooterButton}" Content="Desenvolvido por Projeto LIKI" Click="Contact_Click" />
             </Grid>
         </Grid>
     </Grid>
