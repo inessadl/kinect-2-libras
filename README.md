@@ -4,6 +4,7 @@ Esta aplicação possui o objetivo de mapear gestos da Língua Brasileira de Sin
 
 ## Contribuidores
 * Inessa Luerce
+* Lucas Tortelli
 
 ## Referências
 Desenvolvido com [Vitruvius](https://github.com/LightBuzz/Vitruvius)
