@@ -22,6 +22,7 @@ namespace Kinect2Libras
     /// </summary>
     public partial class CameraPage : Page
     {
+
         KinectSensor _sensor;
         MultiSourceFrameReader _reader;
         PlayersController _playersController;
@@ -32,12 +33,14 @@ namespace Kinect2Libras
         {
             InitializeComponent();
 
+            
             _sensor = KinectSensor.GetDefault();
 
-            if (_sensor != null)
+            if (_sensor != null)    // pega o sensor que está ativo
             {
-                _sensor.Open();
+                _sensor.Open();     // "abre" o sensor
 
+                // especifica quais streams poderão ser acessados
                 _reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared | FrameSourceTypes.Body);
                 _reader.MultiSourceFrameArrived += Reader_MultiSourceFrameArrived;
 
@@ -66,6 +69,7 @@ namespace Kinect2Libras
             }
         }
 
+        // botão de navegação "voltar"
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             if (NavigationService.CanGoBack)
@@ -74,16 +78,19 @@ namespace Kinect2Libras
             }
         }
 
+        // botão para acessar câmera em cores
         private void Color_Click(object sender, RoutedEventArgs e)
         {
             viewer.Visualization = Visualization.Color;
         }
 
+        // botão para acessar câmera de profundidade
         private void Depth_Click(object sender, RoutedEventArgs e)
         {
             viewer.Visualization = Visualization.Depth;
         }
 
+        // botão para acessar câmera de infravermelho
         private void Infrared_Click(object sender, RoutedEventArgs e)
         {
             viewer.Visualization = Visualization.Infrared;
@@ -99,6 +106,7 @@ namespace Kinect2Libras
             _displaySkeleton = false;
         }
 
+        // dispara quando um frame de um dos tipos de dados é encontrado
         void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
             var reference = e.FrameReference.AcquireFrame();
@@ -170,6 +178,7 @@ namespace Kinect2Libras
             viewer.Clear();
         }
 
+        // captura a tela e salva em um arquivo .jpg
         private void Save_Click(object sender, RoutedEventArgs e)
         {
             string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "kinect-screenshot.jpg");

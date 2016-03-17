@@ -10,13 +10,13 @@ namespace LightBuzz.Vitruvius.FingerTracking
     /// </summary>
     public class HandsController
     {
-        IList<DepthPointEx> fingers { get; set; }
+        private IList<DepthPointEx> fingers;
         private readonly int DEFAULT_DEPTH_WIDTH = 512;
         private readonly int DEFAULT_DEPTH_HEIGHT = 424;
         private readonly ushort MIN_DEPTH = 500;
         private readonly ushort MAX_DEPTH = ushort.MaxValue;
         private readonly float DEPTH_THRESHOLD = 80; // 8cm
-
+        
         private GrahamScan _grahamScan = new GrahamScan();
         private PointFilter _lineThinner = new PointFilter();
 
@@ -96,6 +96,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
             Update(frameData, body);
         }
+        
 
         /// <summary>
         /// Updates the finger-detection engine with the new data.
@@ -169,7 +170,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
             bool searchForLeftHand = DetectLeftHand && !float.IsInfinity(handLeftX) && !float.IsInfinity(handLeftY) && !float.IsInfinity(wristLeftX) && !float.IsInfinity(wristLeftY) && !float.IsInfinity(tipLeftX) && !float.IsInfinity(tipLeftY) && !float.IsInfinity(thumbLeftX) && !float.IsInfinity(thumbLeftY);
             bool searchForRightHand = DetectRightHand && !float.IsInfinity(handRightX) && !float.IsInfinity(handRightY) && !float.IsInfinity(wristRightX) && !float.IsInfinity(wristRightY) && !float.IsInfinity(tipRightX) && !float.IsInfinity(tipRightY) && !float.IsInfinity(thumbRightX) && !float.IsInfinity(thumbRightY);
 
-
+            
             this.fingers = new List<DepthPointEx>();
             if (searchForLeftHand || searchForRightHand)
             {
@@ -328,23 +329,23 @@ namespace LightBuzz.Vitruvius.FingerTracking
                 fingers = filtered.Where(p => p.X < wristX).Take(5).ToList();
 
             }
-            //try
-            //{
-            //    if (hand)
-            //    {
-            //        String aux = "LEFT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
-            //        + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
+            try
+            {
+                if (hand)
+                {
+                    String aux = "LEFT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
+                    + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
 
-            //        System.IO.File.AppendAllText(@"fingers.txt", aux);
-            //    }
-            //    else {
-            //        String aux = "RIGHT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
-            //        + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
+                    System.IO.File.AppendAllText(@"fingers.txt", aux);
+                }
+                else {
+                    String aux = "RIGHT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
+                    + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
 
-            //        System.IO.File.AppendAllText(@"fingers.txt", aux);
-            //    }
-            //}
-            //catch (Exception e) { }
+                    System.IO.File.AppendAllText(@"fingers.txt", aux);
+                }
+            }
+            catch (Exception e) { }
 
 
             if (contour.Count > 0 && fingers.Count > 0)
@@ -354,7 +355,13 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
             return null;
         }
+
+        // TODO: getFingers()
     }
+
+    
+  
+    
 
 
 }

@@ -178,12 +178,21 @@ namespace Kinect2Libras
             Canvas.SetTop(ellipse, point.Y - radius / 2.0);
         }
 
+        // botão para voltar para a página inicial
         private void Back_Click(object sender, RoutedEventArgs e)
         {
+            
             if (NavigationService.CanGoBack)
             {
                 NavigationService.GoBack();
             }
         }
+
+        //private void Record_Click(object sender, RoutedEventArgs e)
+        //{
+        //    IList<DepthPointEx> fingers;
+        //    fingers = _handsController.getFingers();
+        //}
+
     }
 }
