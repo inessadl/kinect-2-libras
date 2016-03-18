@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 using LightBuzz.Vitruvius.FingerTracking;
 using Microsoft.Kinect;
 using LightBuzz.Vitruvius;
-
+using System.Threading;
 
 namespace Kinect2Libras
 {
@@ -24,12 +24,14 @@ namespace Kinect2Libras
     /// </summary>
     public partial class FingerTrackingPage : Page
     {
+        private List<DepthPointEx> rightHandFingers = null;
         private KinectSensor _sensor = null;
         private InfraredFrameReader _infraredReader = null;
         private DepthFrameReader _depthReader = null;
         private BodyFrameReader _bodyReader = null;
         private IList<Body> _bodies;
         private Body _body;
+        private bool gestureRecorded=false;
 
         // Create a new reference of a HandsController.
         private HandsController _handsController = null;
@@ -188,11 +190,115 @@ namespace Kinect2Libras
             }
         }
 
-        //private void Record_Click(object sender, RoutedEventArgs e)
-        //{
-        //    IList<DepthPointEx> fingers;
-        //    fingers = _handsController.getFingers();
-        //}
+        private void Record_Click(object sender, RoutedEventArgs e)
+        {
+            bool aborted = false;
+            bool recorded = false;
+            while (!aborted && !this.gestureRecorded)
+            {
+                Thread calculaGesto = new Thread(recordGesture);
+                Thread time = new Thread(tempo);
+
+                calculaGesto.Start();
+                time.Start();
+
+                while (time.IsAlive) ;
+                if (calculaGesto.IsAlive)
+                {
+                    calculaGesto.Abort();
+                    aborted = true;
+                }
+
+            }
+
+            if (!this.gestureRecorded)
+            {
+                Console.WriteLine("NAO CONSIGO REGISTRAR, TENTE NOVAMENTE");
+
+            }
+
+            this.gestureRecorded = false;
+            this.rightHandFingers = null;
+        }
+        private void recordGesture() {
+            List<DepthPointEx> fingers;
+
+            while (this.rightHandFingers == null)
+            {
+                this.receiveHand();
+            }
+            this.gestureRecorded = true;
+            Console.WriteLine("REGISTRO GRAVADO =)");
+            String aux = "[" + this.rightHandFingers[0].X.ToString() + "," + this.rightHandFingers[0].Y.ToString() + "," + this.rightHandFingers[1].X.ToString() + "," + this.rightHandFingers[1].Y.ToString() + "," + this.rightHandFingers[2].X.ToString() + "," + this.rightHandFingers[2].Y.ToString() + "," + this.rightHandFingers[3].X.ToString() + "," + this.rightHandFingers[3].Y.ToString() + "," + this.rightHandFingers[4].X.ToString() + "," + this.rightHandFingers[4].Y.ToString() + "]\n";
+            System.IO.File.AppendAllText(@"fingers.txt", aux);
+        }
+
+
+        private void receiveHand() {
+            bool condition = false;
+            bool discrepante = false;
+            
+            List<DepthPointEx> fingers = null;
+            while (!condition) {
+                fingers = null;
+                int cont = 0;
+                fingers = this._handsController.getFingers();
+                
+                if (fingers != null)
+                {
+                    if (fingers.Count == 5)
+                    {
+                        float resultado = 0;
+
+                        while (!discrepante && cont <4)
+                        {
+                            //Verifica se a variabilidade dos parâmetros em X e Y, caso algum for muito discrepante, então e considerado um ruido
+                            // Entao e recalculado
+                            float resultX = Math.Abs(fingers[cont].X - fingers[cont + 1].X);
+                            Console.WriteLine(resultX);
+                            float resultY = Math.Abs(fingers[cont].Y - fingers[cont + 1].Y);
+                            Console.WriteLine(resultY);
+                            if (resultX > 200)
+                            {
+                                discrepante = true;
+
+                            }
+                            else if (resultY > 200)
+                            {
+                                discrepante = true;
+                            }
+
+                            cont++;
+                        }
+
+                        if (discrepante == false)
+                        {
+                            condition = true;
+                        }
+                    }
+                }
+
+           }
+
+            this.rightHandFingers = fingers;
+
+
+
+        }
+
+        private List<DepthPointEx> getRightHandFingers() {
+            return this.rightHandFingers;
+        }
+
+        // Delimita o tempo de
+        static void tempo()
+        {
+            System.Threading.Thread.Sleep(5000); 
+        }
+
+
+
+
 
     }
 }

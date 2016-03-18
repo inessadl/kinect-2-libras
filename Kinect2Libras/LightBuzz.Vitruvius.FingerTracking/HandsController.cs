@@ -10,13 +10,19 @@ namespace LightBuzz.Vitruvius.FingerTracking
     /// </summary>
     public class HandsController
     {
-        private IList<DepthPointEx> fingers;
+        List<DepthPointEx> fingers { get; set; }
+
+        //Dedos da mao direita, feita para os testes
+        List<DepthPointEx> rightFingers;
+           
+            
+             
         private readonly int DEFAULT_DEPTH_WIDTH = 512;
         private readonly int DEFAULT_DEPTH_HEIGHT = 424;
         private readonly ushort MIN_DEPTH = 500;
         private readonly ushort MAX_DEPTH = ushort.MaxValue;
         private readonly float DEPTH_THRESHOLD = 80; // 8cm
-        
+
         private GrahamScan _grahamScan = new GrahamScan();
         private PointFilter _lineThinner = new PointFilter();
 
@@ -96,7 +102,6 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
             Update(frameData, body);
         }
-        
 
         /// <summary>
         /// Updates the finger-detection engine with the new data.
@@ -127,36 +132,36 @@ namespace LightBuzz.Vitruvius.FingerTracking
                 _handPixelsRight = new byte[DepthWidth * DepthHeight];
             }
 
-            Hand handLeft = null;
+            //Hand handLeft = null;
             Hand handRight = null;
 
-            Joint jointHandLeft = body.Joints[JointType.HandLeft];
+            //Joint jointHandLeft = body.Joints[JointType.HandLeft];
             Joint jointHandRight = body.Joints[JointType.HandRight];
-            Joint jointWristLeft = body.Joints[JointType.WristLeft];
+            //Joint jointWristLeft = body.Joints[JointType.WristLeft];
             Joint jointWristRight = body.Joints[JointType.WristRight];
-            Joint jointTipLeft = body.Joints[JointType.HandTipLeft];
+            //Joint jointTipLeft = body.Joints[JointType.HandTipLeft];
             Joint jointTipRight = body.Joints[JointType.HandTipRight];
-            Joint jointThumbLeft = body.Joints[JointType.ThumbLeft];
+            //Joint jointThumbLeft = body.Joints[JointType.ThumbLeft];
             Joint jointThumbRight = body.Joints[JointType.ThumbRight];
 
-            DepthSpacePoint depthPointHandLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointHandLeft.Position);
-            DepthSpacePoint depthPointWristLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointWristLeft.Position);
-            DepthSpacePoint depthPointTipLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointTipLeft.Position);
-            DepthSpacePoint depthPointThumbLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointThumbLeft.Position);
+           // DepthSpacePoint depthPointHandLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointHandLeft.Position);
+           // DepthSpacePoint depthPointWristLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointWristLeft.Position);
+            //DepthSpacePoint depthPointTipLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointTipLeft.Position);
+            //DepthSpacePoint depthPointThumbLeft = CoordinateMapper.MapCameraPointToDepthSpace(jointThumbLeft.Position);
 
             DepthSpacePoint depthPointHandRight = CoordinateMapper.MapCameraPointToDepthSpace(jointHandRight.Position);
             DepthSpacePoint depthPointWristRight = CoordinateMapper.MapCameraPointToDepthSpace(jointWristRight.Position);
             DepthSpacePoint depthPointTipRight = CoordinateMapper.MapCameraPointToDepthSpace(jointTipRight.Position);
             DepthSpacePoint depthPointThumbRight = CoordinateMapper.MapCameraPointToDepthSpace(jointThumbRight.Position);
 
-            float handLeftX = depthPointHandLeft.X;
-            float handLeftY = depthPointHandLeft.Y;
-            float wristLeftX = depthPointWristLeft.X;
-            float wristLeftY = depthPointWristLeft.Y;
-            float tipLeftX = depthPointTipLeft.X;
-            float tipLeftY = depthPointTipLeft.Y;
-            float thumbLeftX = depthPointThumbLeft.X;
-            float thumbLeftY = depthPointThumbLeft.Y;
+            //float handLeftX = depthPointHandLeft.X;
+            //float handLeftY = depthPointHandLeft.Y;
+            //float wristLeftX = depthPointWristLeft.X;
+            //float wristLeftY = depthPointWristLeft.Y;
+            //float tipLeftX = depthPointTipLeft.X;
+            //float tipLeftY = depthPointTipLeft.Y;
+            //float thumbLeftX = depthPointThumbLeft.X;
+            //float thumbLeftY = depthPointThumbLeft.Y;
 
             float handRightX = depthPointHandRight.X;
             float handRightY = depthPointHandRight.Y;
@@ -167,30 +172,31 @@ namespace LightBuzz.Vitruvius.FingerTracking
             float thumbRightX = depthPointThumbRight.X;
             float thumbRightY = depthPointThumbRight.Y;
 
-            bool searchForLeftHand = DetectLeftHand && !float.IsInfinity(handLeftX) && !float.IsInfinity(handLeftY) && !float.IsInfinity(wristLeftX) && !float.IsInfinity(wristLeftY) && !float.IsInfinity(tipLeftX) && !float.IsInfinity(tipLeftY) && !float.IsInfinity(thumbLeftX) && !float.IsInfinity(thumbLeftY);
+           // bool searchForLeftHand = DetectLeftHand && !float.IsInfinity(handLeftX) && !float.IsInfinity(handLeftY) && !float.IsInfinity(wristLeftX) && !float.IsInfinity(wristLeftY) && !float.IsInfinity(tipLeftX) && !float.IsInfinity(tipLeftY) && !float.IsInfinity(thumbLeftX) && !float.IsInfinity(thumbLeftY);
             bool searchForRightHand = DetectRightHand && !float.IsInfinity(handRightX) && !float.IsInfinity(handRightY) && !float.IsInfinity(wristRightX) && !float.IsInfinity(wristRightY) && !float.IsInfinity(tipRightX) && !float.IsInfinity(tipRightY) && !float.IsInfinity(thumbRightX) && !float.IsInfinity(thumbRightY);
 
-            
+
             this.fingers = new List<DepthPointEx>();
-            if (searchForLeftHand || searchForRightHand)
+            //if (searchForLeftHand || searchForRightHand)
+            if (searchForRightHand)
             {
-                double distanceLeft = searchForLeftHand ? CalculateDistance(handLeftX, handLeftY, tipLeftX, tipLeftY, thumbLeftX, thumbLeftY) : 0.0;
+                //double distanceLeft = searchForLeftHand ? CalculateDistance(handLeftX, handLeftY, tipLeftX, tipLeftY, thumbLeftX, thumbLeftY) : 0.0;
                 double distanceRight = searchForRightHand ? CalculateDistance(handRightX, handRightY, tipRightX, tipRightY, thumbRightX, thumbRightY) : 0.0;
 
-                double angleLeft = searchForLeftHand ? DepthPointEx.Angle(wristLeftX, wristLeftY, wristLeftX, 0, handLeftX, handLeftY) : 0.0;
+                //double angleLeft = searchForLeftHand ? DepthPointEx.Angle(wristLeftX, wristLeftY, wristLeftX, 0, handLeftX, handLeftY) : 0.0;
                 double angleRight = searchForRightHand ? DepthPointEx.Angle(wristRightX, wristRightY, wristRightX, 0, handRightX, handRightY) : 0.0;
 
-                int minLeftX = searchForLeftHand ? (int)(handLeftX - distanceLeft) : 0;
-                int minLeftY = searchForLeftHand ? (int)(handLeftY - distanceLeft) : 0;
-                int maxLeftX = searchForLeftHand ? (int)(handLeftX + distanceLeft) : 0;
-                int maxLeftY = searchForLeftHand ? (int)(handLeftY + distanceLeft) : 0;
+                //int minLeftX = searchForLeftHand ? (int)(handLeftX - distanceLeft) : 0;
+                //int minLeftY = searchForLeftHand ? (int)(handLeftY - distanceLeft) : 0;
+                //int maxLeftX = searchForLeftHand ? (int)(handLeftX + distanceLeft) : 0;
+                //int maxLeftY = searchForLeftHand ? (int)(handLeftY + distanceLeft) : 0;
 
                 int minRightX = searchForRightHand ? (int)(handRightX - distanceRight) : 0;
                 int minRightY = searchForRightHand ? (int)(handRightY - distanceRight) : 0;
                 int maxRightX = searchForRightHand ? (int)(handRightX + distanceRight) : 0;
                 int maxRightY = searchForRightHand ? (int)(handRightY + distanceRight) : 0;
 
-                float depthLeft = jointHandLeft.Position.Z * 1000; // m to mm
+                //float depthLeft = jointHandLeft.Position.Z * 1000; // m to mm
                 float depthRight = jointHandRight.Position.Z * 1000;
 
                 for (int i = 0; i < DepthWidth * DepthHeight; ++i)
@@ -202,17 +208,17 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
                     bool isInBounds = depth >= MIN_DEPTH && depth <= MAX_DEPTH;
 
-                    bool conditionLeft = depth >= depthLeft - DEPTH_THRESHOLD &&
-                                         depth <= depthLeft + DEPTH_THRESHOLD &&
-                                         depthX >= minLeftX && depthX <= maxLeftX &&
-                                         depthY >= minLeftY && depthY <= maxLeftY;
+                    //bool conditionLeft = depth >= depthLeft - DEPTH_THRESHOLD &&
+                    //                     depth <= depthLeft + DEPTH_THRESHOLD &&
+                    //                     depthX >= minLeftX && depthX <= maxLeftX &&
+                    //                     depthY >= minLeftY && depthY <= maxLeftY;
 
                     bool conditionRight = depth >= depthRight - DEPTH_THRESHOLD &&
                                           depth <= depthRight + DEPTH_THRESHOLD &&
                                           depthX >= minRightX && depthX <= maxRightX &&
                                           depthY >= minRightY && depthY <= maxRightY;
 
-                    _handPixelsLeft[i] = (byte)(isInBounds && searchForLeftHand && conditionLeft ? 255 : 0);
+                    //_handPixelsLeft[i] = (byte)(isInBounds && searchForLeftHand && conditionLeft ? 255 : 0);
                     _handPixelsRight[i] = (byte)(isInBounds && searchForRightHand && conditionRight ? 255 : 0);
                 }
 
@@ -226,23 +232,23 @@ namespace LightBuzz.Vitruvius.FingerTracking
                     int depthX = i % DepthWidth;
                     int depthY = i / DepthWidth;
 
-                    if (searchForLeftHand)
-                    {
-                        if (_handPixelsLeft[i] != 0)
-                        {
-                            byte top = i - DepthWidth >= 0 ? _handPixelsLeft[i - DepthWidth] : (byte)0;
-                            byte bottom = i + DepthWidth < _handPixelsLeft.Length ? _handPixelsLeft[i + DepthWidth] : (byte)0;
-                            byte left = i - 1 >= 0 ? _handPixelsLeft[i - 1] : (byte)0;
-                            byte right = i + 1 < _handPixelsLeft.Length ? _handPixelsLeft[i + 1] : (byte)0;
+                    //if (searchForLeftHand)
+                    //{
+                    //    if (_handPixelsLeft[i] != 0)
+                    //    {
+                    //        byte top = i - DepthWidth >= 0 ? _handPixelsLeft[i - DepthWidth] : (byte)0;
+                    //        byte bottom = i + DepthWidth < _handPixelsLeft.Length ? _handPixelsLeft[i + DepthWidth] : (byte)0;
+                    //        byte left = i - 1 >= 0 ? _handPixelsLeft[i - 1] : (byte)0;
+                    //        byte right = i + 1 < _handPixelsLeft.Length ? _handPixelsLeft[i + 1] : (byte)0;
 
-                            bool isInContour = top == 0 || bottom == 0 || left == 0 || right == 0;
+                    //        bool isInContour = top == 0 || bottom == 0 || left == 0 || right == 0;
 
-                            if (isInContour)
-                            {
-                                contourLeft.Add(new DepthPointEx { X = depthX, Y = depthY, Z = depth });
-                            }
-                        }
-                    }
+                    //        if (isInContour)
+                    //        {
+                    //            contourLeft.Add(new DepthPointEx { X = depthX, Y = depthY, Z = depth });
+                    //        }
+                    //    }
+                    //}
 
                     if (searchForRightHand)
                     {
@@ -263,23 +269,24 @@ namespace LightBuzz.Vitruvius.FingerTracking
                     }
                 }
 
-                if (searchForLeftHand)
-                {
-                    handLeft = GetHand(body.TrackingId, body.HandLeftState, contourLeft, angleLeft, wristLeftX, wristLeftY, false);
-                }
+                //if (searchForLeftHand)
+                //{
+                //    handLeft = GetHand(body.TrackingId, body.HandLeftState, contourLeft, angleLeft, wristLeftX, wristLeftY, false, handLeftX, handLeftY);
+                //}
 
                 if (searchForRightHand)
                 {
-                    handRight = GetHand(body.TrackingId, body.HandRightState, contourRight, angleRight, wristRightX, wristRightY, true);
+                    handRight = GetHand(body.TrackingId, body.HandRightState, contourRight, angleRight, wristRightX, wristRightY, true, handRightX, handRightY);
                 }
             }
 
-            if (handLeft != null || handRight != null)
+            //if (handLeft != null || handRight != null)
+            if (handRight != null)
             {
                 HandCollection hands = new HandCollection
                 {
                     TrackingId = body.TrackingId,
-                    HandLeft = handLeft,
+                    //HandLeft = handLeft,
                     HandRight = handRight
                 };
 
@@ -298,7 +305,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
             return Math.Max(distanceLeftHandTip, distanceLeftHandThumb);
         }
 
-        private Hand GetHand(ulong trackingID, HandState state, List<DepthPointEx> contour, double angle, float wristX, float wristY, bool hand)
+        private Hand GetHand(ulong trackingID, HandState state, List<DepthPointEx> contour, double angle, float wristX, float wristY, bool hand, float handRightX, float handRightY)
         {
             IList<DepthPointEx> convexHull = _grahamScan.ConvexHull(contour);
             IList<DepthPointEx> filtered = _lineThinner.Filter(convexHull);
@@ -329,20 +336,33 @@ namespace LightBuzz.Vitruvius.FingerTracking
                 fingers = filtered.Where(p => p.X < wristX).Take(5).ToList();
 
             }
+           // List<string> listForPython = null;
+            //try
+           // {
+
+
+  //              PythonInstance receiveHand = new PythonInstance(@"
+//class PyClass:
+ //   def __init__(self):
+ //       pass
+ //   def receiveHand(self,list):
+  //      print list[0]");
+
+
+          //      receiveHand.CallMethod("receiveHand", listForPython);
+          //  }
+          //  catch (Exception e) { }
+
             try
             {
-                if (hand)
-                {
-                    String aux = "LEFT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
-                    + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
-
-                    System.IO.File.AppendAllText(@"fingers.txt", aux);
-                }
-                else {
-                    String aux = "RIGHT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
-                    + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
-
-                    System.IO.File.AppendAllText(@"fingers.txt", aux);
+                // hand == true significa que e a mao direita
+                if(hand) {
+                    this.rightFingers = null;
+                    this.rightFingers = this.fingers;
+                    DepthPointEx centerRightHand = new DepthPointEx();
+                    centerRightHand.X = handRightX;
+                    centerRightHand.Y = handRightX;
+                    this.rightFingers.Add(centerRightHand);
                 }
             }
             catch (Exception e) { }
@@ -356,12 +376,11 @@ namespace LightBuzz.Vitruvius.FingerTracking
             return null;
         }
 
-        // TODO: getFingers()
+        public List<DepthPointEx> getFingers()
+        {
+            return this.rightFingers;
+        }
     }
-
-    
-  
-    
 
 
 }

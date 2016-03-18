@@ -20,7 +20,7 @@
                 <ColumnDefinition Width="90"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Click="Back_Click"
+            <Button x:Name="backButton" Click="Record_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
@@ -41,7 +41,8 @@
             <StackPanel Grid.Column="0" Margin="30,0">
                 <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />
                 <!-- TODO: change click event -->
-                <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Back_Click" />
+                <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+
             </StackPanel>
 
 

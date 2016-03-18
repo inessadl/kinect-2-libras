@@ -5,7 +5,7 @@ using System.Windows;
 
 namespace LightBuzz.Vitruvius.FingerTracking
 {
-    internal struct DepthPointEx
+    public struct DepthPointEx
     {
         public float X;
         public float Y;
