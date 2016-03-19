@@ -302,7 +302,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
             IList<DepthPointEx> convexHull = _grahamScan.ConvexHull(contour);
             IList<DepthPointEx> filtered = _lineThinner.Filter(convexHull);
             
-
+            //Calcula os pontos dos dedos de acordo com o ângulo que ela se encontra
             if (angle > -90.0 && angle < 30.0)
             {
                 // Hand "up".
@@ -311,12 +311,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
             }
             else if (angle >= 30.0 && angle < 90.0)
             {
-
                 fingers = filtered.Where(p => p.X > wristX).Take(5).ToList();
-              
-
-
-                //Console.WriteLine(aux.X);
             }
             else if (angle >= 90.0 && angle < 180.0)
             {
@@ -328,42 +323,25 @@ namespace LightBuzz.Vitruvius.FingerTracking
                 fingers = filtered.Where(p => p.X < wristX).Take(5).ToList();
                 
             }
-            List<string> listForPython = null;
-            try
-            {
-                
-                
-                PythonInstance receiveHand = new PythonInstance(@"
-class PyClass:
-    def __init__(self):
-        pass
-    def receiveHand(self,list):
-        print list[0]");
-
-
-                receiveHand.CallMethod("receiveHand", listForPython);
-            }
-            catch(Exception e) { }
+            //Este codigo consiste no momento em que os pontos sao calculado e enviado ao Python
             
-            //try
-            //{
-            //    if (hand)
-            //    {
-            //        String aux = "LEFT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
-            //        + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
-
-            //        System.IO.File.AppendAllText(@"fingers.txt", aux);
-            //    }
-            //    else {
-            //        String aux = "RIGHT HAND: " + "(" + fingers[0].X.ToString() + "," + fingers[0].Y.ToString() + ")" + "(" + fingers[1].X.ToString() + "," + fingers[1].Y.ToString() + ")"
-            //        + "(" + fingers[2].X.ToString() + "," + fingers[2].Y.ToString() + ")" + "(" + fingers[3].X.ToString() + "," + fingers[3].Y.ToString() + ")" + "(" + fingers[4].X.ToString() + "," + fingers[4].Y.ToString() + ")\r";
-
-            //        System.IO.File.AppendAllText(@"fingers.txt", aux);
-            //    }
-            //}
-            //catch (Exception e) { }
+//             List<string> listForPython = null;
+//             try
+//             {
+                
+                
+//                 PythonInstance receiveHand = new PythonInstance(@"
+// class PyClass:
+//     def __init__(self):
+//         pass
+//     def receiveHand(self,list):
+//         print list[0]");
 
 
+//                 receiveHand.CallMethod("receiveHand", listForPython);
+//             }
+//             catch(Exception e) { }
+            
             if (contour.Count > 0 && fingers.Count > 0)
             {
                 return new Hand(trackingID, state, contour, fingers, CoordinateMapper);

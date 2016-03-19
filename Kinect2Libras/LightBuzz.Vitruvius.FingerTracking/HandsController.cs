@@ -14,9 +14,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
         //Dedos da mao direita, feita para os testes
         List<DepthPointEx> rightFingers;
-           
-            
-             
+                
         private readonly int DEFAULT_DEPTH_WIDTH = 512;
         private readonly int DEFAULT_DEPTH_HEIGHT = 424;
         private readonly ushort MIN_DEPTH = 500;
@@ -355,7 +353,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
             try
             {
-                // hand == true significa que e a mao direita
+                // Hand is a flag for right hand
                 if(hand) {
                     this.rightFingers = null;
                     this.rightFingers = this.fingers;
@@ -376,6 +374,9 @@ namespace LightBuzz.Vitruvius.FingerTracking
             return null;
         }
 
+        /// <summary>
+        /// Method for using to get list of finger right hand
+        /// </summary>
         public List<DepthPointEx> getFingers()
         {
             return this.rightFingers;

@@ -190,19 +190,33 @@ namespace Kinect2Libras
             }
         }
 
+        /// <summary>
+        /// Metodo chamado ao pressionar o botao Gravar
+        /// Realiza a criacao de 2 Threads, um para a captura de gestos e o outro para evitar o congelamento total do sistema
+        /// Sendo assim o primeiro thread e abortado quando 5segundos sao transcorridos e nenhum gesto e adquirido
+        /// Isto e feito, pois a API Finger Tracking nao consegue continuar enviandos novos pontos da mao, ela congela nos ultimos replicando-os
+        /// </summary>
         private void Record_Click(object sender, RoutedEventArgs e)
         {
             bool aborted = false;
-            bool recorded = false;
+            
             while (!aborted && !this.gestureRecorded)
             {
+
                 Thread calculaGesto = new Thread(recordGesture);
                 Thread time = new Thread(tempo);
 
+                //Inicia os threads
+                //Thread para capturaro gesto
                 calculaGesto.Start();
+
+              	//Thread para calcular o tempo descorrido  
                 time.Start();
 
+                //BusyWaiting para a thread time
                 while (time.IsAlive) ;
+
+                //Transcorridos 5segundos e a thread de captura ainda ativa, ela e abortada e uma nova tentativa e necessaria
                 if (calculaGesto.IsAlive)
                 {
                     calculaGesto.Abort();
@@ -211,15 +225,24 @@ namespace Kinect2Libras
 
             }
 
+            //Verifica se algum gesto foi capturado
+            //Os comandos escritos em Console.WriteLine devem ser substituidos por alguma mensagem no GUI
             if (!this.gestureRecorded)
             {
-                Console.WriteLine("NAO CONSIGO REGISTRAR, TENTE NOVAMENTE");
+                Console.WriteLine("Sorry, Try Again!");
 
+            }
+            else{
+            	Console.WriteLine("Gesture Recorded");
             }
 
             this.gestureRecorded = false;
             this.rightHandFingers = null;
         }
+
+        /// <summary>
+        /// Responsavel por capturar o gesto feito com a mão direita
+        /// </summary>
         private void recordGesture() {
             List<DepthPointEx> fingers;
 
@@ -227,13 +250,19 @@ namespace Kinect2Libras
             {
                 this.receiveHand();
             }
+
             this.gestureRecorded = true;
-            Console.WriteLine("REGISTRO GRAVADO =)");
+
+            //Monta uma string para o Python, posteriormente será feita diretamente em C#
             String aux = "[" + this.rightHandFingers[0].X.ToString() + "," + this.rightHandFingers[0].Y.ToString() + "," + this.rightHandFingers[1].X.ToString() + "," + this.rightHandFingers[1].Y.ToString() + "," + this.rightHandFingers[2].X.ToString() + "," + this.rightHandFingers[2].Y.ToString() + "," + this.rightHandFingers[3].X.ToString() + "," + this.rightHandFingers[3].Y.ToString() + "," + this.rightHandFingers[4].X.ToString() + "," + this.rightHandFingers[4].Y.ToString() + "]\n";
             System.IO.File.AppendAllText(@"fingers.txt", aux);
         }
 
-
+        /// <summary>
+        /// Responsavel por receber os pontos de cada dedo e verificar a integridade da lista adquirida
+        /// Elimina valores discrepantes (considerado ruidos de captura)
+        /// Elimina a possibilidade de inexistencia de valores na lista adquirida
+        /// </summary>
         private void receiveHand() {
             bool condition = false;
             bool discrepante = false;
@@ -246,10 +275,13 @@ namespace Kinect2Libras
                 
                 if (fingers != null)
                 {
+                	//Somente continuara com listas que contiverem mais de 5 dedos (meio obvio)
                     if (fingers.Count == 5)
                     {
                         float resultado = 0;
 
+                        //Repetira essa sequencia ate que nao haja discrepancia e passar por toda contagem
+                        // Caso haja discrepancia, o laco ira abortar
                         while (!discrepante && cont <4)
                         {
                             //Verifica se a variabilidade dos parâmetros em X e Y, caso algum for muito discrepante, então e considerado um ruido
@@ -258,6 +290,8 @@ namespace Kinect2Libras
                             Console.WriteLine(resultX);
                             float resultY = Math.Abs(fingers[cont].Y - fingers[cont + 1].Y);
                             Console.WriteLine(resultY);
+                            
+                           	//Discrepancia foi setado como valores acima de 200,ou seja, uma distancia de 200 do mapa de coordenadas
                             if (resultX > 200)
                             {
                                 discrepante = true;
@@ -271,6 +305,7 @@ namespace Kinect2Libras
                             cont++;
                         }
 
+                        //Ausencia de discrepancia, entao a lista esta completa e perfeita
                         if (discrepante == false)
                         {
                             condition = true;
@@ -280,25 +315,15 @@ namespace Kinect2Libras
 
            }
 
-            this.rightHandFingers = fingers;
-
-
-
+           // Atualiza a lista de dedos, com os dedos recebidos (ja verificados quanto sua integridade)
+           this.rightHandFingers = fingers;
         }
 
-        private List<DepthPointEx> getRightHandFingers() {
-            return this.rightHandFingers;
-        }
-
-        // Delimita o tempo de
+        // Metodo exclusivo da Thread time, delimita tempo de espera para captura de Gesto
         static void tempo()
         {
             System.Threading.Thread.Sleep(5000); 
         }
-
-
-
-
 
     }
 }
