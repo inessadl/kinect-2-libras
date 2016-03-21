@@ -312,13 +312,13 @@ namespace LightBuzz.Vitruvius.FingerTracking
             if (angle > -90.0 && angle < 30.0)
             {
                 // Hand "up".
-                fingers = filtered.Where(p => p.Y < wristY).Take(5).ToList();
+                fingers = filtered.Where(p => p.Y < wristY).Take(11).ToList();
 
             }
             else if (angle >= 30.0 && angle < 90.0)
             {
 
-                fingers = filtered.Where(p => p.X > wristX).Take(5).ToList();
+                fingers = filtered.Where(p => p.X > wristX).Take(11).ToList();
 
 
 
@@ -326,12 +326,12 @@ namespace LightBuzz.Vitruvius.FingerTracking
             }
             else if (angle >= 90.0 && angle < 180.0)
             {
-                fingers = filtered.Where(p => p.Y > wristY).Take(5).ToList();
+                fingers = filtered.Where(p => p.Y > wristY).Take(11).ToList();
 
             }
             else
             {
-                fingers = filtered.Where(p => p.X < wristX).Take(5).ToList();
+                fingers = filtered.Where(p => p.X < wristX).Take(11).ToList();
 
             }
            // List<string> listForPython = null;
@@ -355,12 +355,58 @@ namespace LightBuzz.Vitruvius.FingerTracking
             {
                 // Hand is a flag for right hand
                 if(hand) {
-                    this.rightFingers = null;
-                    this.rightFingers = this.fingers;
-                    DepthPointEx centerRightHand = new DepthPointEx();
-                    centerRightHand.X = handRightX;
-                    centerRightHand.Y = handRightX;
-                    this.rightFingers.Add(centerRightHand);
+
+                    //so considera uma mao propria para gravacao a que consiga captar 5 pontos
+                    if (fingers.Count == 5)
+                    {
+                        this.rightFingers = null;
+                        this.rightFingers = this.fingers;
+                        DepthPointEx centerRightHand = new DepthPointEx();
+                        centerRightHand.X = handRightX;
+                        centerRightHand.Y = handRightY;
+
+                        this.rightFingers.Add(centerRightHand);
+                        int tam = this.rightFingers.Count - 1;
+                        Console.WriteLine(tam);
+                       
+                        //normalizacao, setando todos os valores com origem no centro da mao
+                        
+                        //Calculon das falanges, simulacao leap motion
+                        for (int i = 0; i < tam; i++)
+                        {
+                            DepthPointEx middleEachFinger = new DepthPointEx();
+                            //delimita o dedao
+                            if (i == 3)
+                            {
+                                middleEachFinger.X = ((this.rightFingers[i].X + handRightX) / (float)2.0);
+                                middleEachFinger.Y = ((this.rightFingers[i].Y + handRightY) / (float)1.9);
+                                this.rightFingers.Add(middleEachFinger);
+                            }
+                            else if(i==4)
+                            {
+                                middleEachFinger.X = ((this.rightFingers[i].X + handRightX) / (float)2.02);
+                                middleEachFinger.Y = ((this.rightFingers[i].Y + handRightY) / (float)2.0);
+                                this.rightFingers.Add(middleEachFinger);
+                            }
+                            else if(i==0)
+                            {
+                                middleEachFinger.X = ((this.rightFingers[i].X + handRightX) / (float)2.0);
+                                middleEachFinger.Y = ((this.rightFingers[i].Y + handRightY) / (float)2.0);
+                                this.rightFingers.Add(middleEachFinger);
+                            }
+                            else
+                            {
+                                middleEachFinger.X = ((this.rightFingers[i].X + handRightX) / (float)1.98);
+                                middleEachFinger.Y = ((this.rightFingers[i].Y + handRightY) / (float)2.0);
+                                this.rightFingers.Add(middleEachFinger);
+                            }
+                                
+                                 
+                            
+                        }
+                        
+
+                    }
                 }
             }
             catch (Exception e) { }

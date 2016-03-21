@@ -217,7 +217,7 @@ namespace Kinect2Libras
                 while (time.IsAlive) ;
 
                 //Transcorridos 5segundos e a thread de captura ainda ativa, ela e abortada e uma nova tentativa e necessaria
-                if (calculaGesto.IsAlive)
+                if (calculaGesto.IsAlive&& this.gestureRecorded ==false)
                 {
                     calculaGesto.Abort();
                     aborted = true;
@@ -254,8 +254,24 @@ namespace Kinect2Libras
             this.gestureRecorded = true;
 
             //Monta uma string para o Python, posteriormente será feita diretamente em C#
-            String aux = "[" + this.rightHandFingers[0].X.ToString() + "," + this.rightHandFingers[0].Y.ToString() + "," + this.rightHandFingers[1].X.ToString() + "," + this.rightHandFingers[1].Y.ToString() + "," + this.rightHandFingers[2].X.ToString() + "," + this.rightHandFingers[2].Y.ToString() + "," + this.rightHandFingers[3].X.ToString() + "," + this.rightHandFingers[3].Y.ToString() + "," + this.rightHandFingers[4].X.ToString() + "," + this.rightHandFingers[4].Y.ToString() + "]\n";
-            System.IO.File.AppendAllText(@"fingers.txt", aux);
+            
+            int answer = 2;
+
+            Console.WriteLine(this.rightHandFingers.Count);
+
+
+            String aux = "[" + this.rightHandFingers[0].X + "-" + this.rightHandFingers[0].Y + "-" + this.rightHandFingers[1].X 
+                + "-" + this.rightHandFingers[1].Y + "-" + this.rightHandFingers[2].X + "-" + this.rightHandFingers[2].Y + "-" 
+                + this.rightHandFingers[3].X +"-" + this.rightHandFingers[3].Y + "-" + this.rightHandFingers[4].X + "-"
+                + this.rightHandFingers[4].Y +"-"+ this.rightHandFingers[5].X +"-"+ this.rightHandFingers[5].Y + "-" +
+                this.rightHandFingers[6].X + "-" + this.rightHandFingers[6].Y + "-" +
+                this.rightHandFingers[7].X + "-" + this.rightHandFingers[7].Y + "-" +
+                this.rightHandFingers[8].X + "-" + this.rightHandFingers[8].Y + "-" +
+                this.rightHandFingers[9].X + "-" + this.rightHandFingers[9].Y + "-" +
+                this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
+
+
+            System.IO.File.AppendAllText(@"C:\Users\Lucas Tortelli\Desktop\FingerTracking\New\kinect-2-libras\Recorded\fingers.txt", aux);
         }
 
         /// <summary>
@@ -275,21 +291,23 @@ namespace Kinect2Libras
                 
                 if (fingers != null)
                 {
-                	//Somente continuara com listas que contiverem mais de 5 dedos (meio obvio)
-                    if (fingers.Count == 5)
+                    //Somente continuara com listas que contiverem mais de 5 dedos (meio obvio)
+                    
+                    
+                    if (fingers.Count == 11)
                     {
                         float resultado = 0;
 
                         //Repetira essa sequencia ate que nao haja discrepancia e passar por toda contagem
                         // Caso haja discrepancia, o laco ira abortar
-                        while (!discrepante && cont <4)
+                        while (!discrepante && cont <5)
                         {
                             //Verifica se a variabilidade dos parâmetros em X e Y, caso algum for muito discrepante, então e considerado um ruido
                             // Entao e recalculado
-                            float resultX = Math.Abs(fingers[cont].X - fingers[cont + 1].X);
-                            Console.WriteLine(resultX);
-                            float resultY = Math.Abs(fingers[cont].Y - fingers[cont + 1].Y);
-                            Console.WriteLine(resultY);
+                            Decimal resultX = Math.Abs((Decimal)fingers[cont].X - (Decimal)fingers[cont + 1].X);
+                            //Console.WriteLine(resultX);
+                            Decimal resultY = Math.Abs((Decimal)fingers[cont].Y - (Decimal)fingers[cont + 1].Y);
+                            Console.WriteLine(fingers[cont].Y+"-"+fingers[cont + 1].Y+" = "+resultY);
                             
                            	//Discrepancia foi setado como valores acima de 200,ou seja, uma distancia de 200 do mapa de coordenadas
                             if (resultX > 200)
