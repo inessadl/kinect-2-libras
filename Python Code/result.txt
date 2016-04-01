@@ -1,0 +1,7178 @@
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 117
+#  Gestos para Teste: 63
+#  Corretas 8
+#  Incorretas 55
+#  % Predicoes corretas: 0.126984126984
+#  % Erro: 0.873015873016
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 118
+#  Gestos para Teste: 62
+#  Corretas 5
+#  Incorretas 57
+#  % Predicoes corretas: 0.0806451612903
+#  % Erro: 0.91935483871
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 118
+#  Gestos para Teste: 62
+#  Corretas 9
+#  Incorretas 53
+#  % Predicoes corretas: 0.145161290323
+#  % Erro: 0.854838709677
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 119
+#  Gestos para Teste: 61
+#  Corretas 8
+#  Incorretas 53
+#  % Predicoes corretas: 0.131147540984
+#  % Erro: 0.868852459016
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 119
+#  Gestos para Teste: 61
+#  Corretas 5
+#  Incorretas 56
+#  % Predicoes corretas: 0.0819672131148
+#  % Erro: 0.918032786885
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 120
+#  Gestos para Teste: 60
+#  Corretas 4
+#  Incorretas 56
+#  % Predicoes corretas: 0.0666666666667
+#  % Erro: 0.933333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 120
+#  Gestos para Teste: 60
+#  Corretas 9
+#  Incorretas 51
+#  % Predicoes corretas: 0.15
+#  % Erro: 0.85
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 121
+#  Gestos para Teste: 59
+#  Corretas 5
+#  Incorretas 54
+#  % Predicoes corretas: 0.0847457627119
+#  % Erro: 0.915254237288
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 121
+#  Gestos para Teste: 59
+#  Corretas 6
+#  Incorretas 53
+#  % Predicoes corretas: 0.101694915254
+#  % Erro: 0.898305084746
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 122
+#  Gestos para Teste: 58
+#  Corretas 7
+#  Incorretas 51
+#  % Predicoes corretas: 0.120689655172
+#  % Erro: 0.879310344828
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 122
+#  Gestos para Teste: 58
+#  Corretas 4
+#  Incorretas 54
+#  % Predicoes corretas: 0.0689655172414
+#  % Erro: 0.931034482759
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 123
+#  Gestos para Teste: 57
+#  Corretas 10
+#  Incorretas 47
+#  % Predicoes corretas: 0.175438596491
+#  % Erro: 0.824561403509
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 124
+#  Gestos para Teste: 56
+#  Corretas 10
+#  Incorretas 46
+#  % Predicoes corretas: 0.178571428571
+#  % Erro: 0.821428571429
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 124
+#  Gestos para Teste: 56
+#  Corretas 9
+#  Incorretas 47
+#  % Predicoes corretas: 0.160714285714
+#  % Erro: 0.839285714286
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 125
+#  Gestos para Teste: 55
+#  Corretas 5
+#  Incorretas 50
+#  % Predicoes corretas: 0.0909090909091
+#  % Erro: 0.909090909091
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 125
+#  Gestos para Teste: 55
+#  Corretas 9
+#  Incorretas 46
+#  % Predicoes corretas: 0.163636363636
+#  % Erro: 0.836363636364
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 126
+#  Gestos para Teste: 54
+#  Corretas 9
+#  Incorretas 45
+#  % Predicoes corretas: 0.166666666667
+#  % Erro: 0.833333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 126
+#  Gestos para Teste: 54
+#  Corretas 5
+#  Incorretas 49
+#  % Predicoes corretas: 0.0925925925926
+#  % Erro: 0.907407407407
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 10
+#  Incorretas 43
+#  % Predicoes corretas: 0.188679245283
+#  % Erro: 0.811320754717
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 6
+#  Incorretas 47
+#  % Predicoes corretas: 0.11320754717
+#  % Erro: 0.88679245283
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 4
+#  Incorretas 48
+#  % Predicoes corretas: 0.0769230769231
+#  % Erro: 0.923076923077
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 9
+#  Incorretas 43
+#  % Predicoes corretas: 0.173076923077
+#  % Erro: 0.826923076923
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 5
+#  Incorretas 46
+#  % Predicoes corretas: 0.0980392156863
+#  % Erro: 0.901960784314
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 6
+#  Incorretas 45
+#  % Predicoes corretas: 0.117647058824
+#  % Erro: 0.882352941176
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 130
+#  Gestos para Teste: 50
+#  Corretas 10
+#  Incorretas 40
+#  % Predicoes corretas: 0.2
+#  % Erro: 0.8
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 4
+#  Incorretas 45
+#  % Predicoes corretas: 0.0816326530612
+#  % Erro: 0.918367346939
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 4
+#  Incorretas 45
+#  % Predicoes corretas: 0.0816326530612
+#  % Erro: 0.918367346939
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 132
+#  Gestos para Teste: 48
+#  Corretas 5
+#  Incorretas 43
+#  % Predicoes corretas: 0.104166666667
+#  % Erro: 0.895833333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 132
+#  Gestos para Teste: 48
+#  Corretas 8
+#  Incorretas 40
+#  % Predicoes corretas: 0.166666666667
+#  % Erro: 0.833333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 6
+#  Incorretas 41
+#  % Predicoes corretas: 0.127659574468
+#  % Erro: 0.872340425532
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 5
+#  Incorretas 42
+#  % Predicoes corretas: 0.106382978723
+#  % Erro: 0.893617021277
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 1
+#  Incorretas 45
+#  % Predicoes corretas: 0.0217391304348
+#  % Erro: 0.978260869565
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 1
+#  Incorretas 45
+#  % Predicoes corretas: 0.0217391304348
+#  % Erro: 0.978260869565
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 3
+#  Incorretas 42
+#  % Predicoes corretas: 0.0666666666667
+#  % Erro: 0.933333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 4
+#  Incorretas 41
+#  % Predicoes corretas: 0.0888888888889
+#  % Erro: 0.911111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 5
+#  Incorretas 39
+#  % Predicoes corretas: 0.113636363636
+#  % Erro: 0.886363636364
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 4
+#  Incorretas 40
+#  % Predicoes corretas: 0.0909090909091
+#  % Erro: 0.909090909091
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 137
+#  Gestos para Teste: 43
+#  Corretas 6
+#  Incorretas 37
+#  % Predicoes corretas: 0.139534883721
+#  % Erro: 0.860465116279
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 7
+#  Incorretas 35
+#  % Predicoes corretas: 0.166666666667
+#  % Erro: 0.833333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 12
+#  Incorretas 30
+#  % Predicoes corretas: 0.285714285714
+#  % Erro: 0.714285714286
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 139
+#  Gestos para Teste: 41
+#  Corretas 2
+#  Incorretas 39
+#  % Predicoes corretas: 0.0487804878049
+#  % Erro: 0.951219512195
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 139
+#  Gestos para Teste: 41
+#  Corretas 4
+#  Incorretas 37
+#  % Predicoes corretas: 0.0975609756098
+#  % Erro: 0.90243902439
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 7
+#  Incorretas 33
+#  % Predicoes corretas: 0.175
+#  % Erro: 0.825
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 5
+#  Incorretas 35
+#  % Predicoes corretas: 0.125
+#  % Erro: 0.875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 8
+#  Incorretas 31
+#  % Predicoes corretas: 0.205128205128
+#  % Erro: 0.794871794872
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 5
+#  Incorretas 34
+#  % Predicoes corretas: 0.128205128205
+#  % Erro: 0.871794871795
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 4
+#  Incorretas 34
+#  % Predicoes corretas: 0.105263157895
+#  % Erro: 0.894736842105
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 4
+#  Incorretas 34
+#  % Predicoes corretas: 0.105263157895
+#  % Erro: 0.894736842105
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 143
+#  Gestos para Teste: 37
+#  Corretas 4
+#  Incorretas 33
+#  % Predicoes corretas: 0.108108108108
+#  % Erro: 0.891891891892
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 4
+#  Incorretas 32
+#  % Predicoes corretas: 0.111111111111
+#  % Erro: 0.888888888889
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 5
+#  Incorretas 31
+#  % Predicoes corretas: 0.138888888889
+#  % Erro: 0.861111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 5
+#  Incorretas 30
+#  % Predicoes corretas: 0.142857142857
+#  % Erro: 0.857142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 6
+#  Incorretas 29
+#  % Predicoes corretas: 0.171428571429
+#  % Erro: 0.828571428571
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 146
+#  Gestos para Teste: 34
+#  Corretas 1
+#  Incorretas 33
+#  % Predicoes corretas: 0.0294117647059
+#  % Erro: 0.970588235294
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 146
+#  Gestos para Teste: 34
+#  Corretas 5
+#  Incorretas 29
+#  % Predicoes corretas: 0.147058823529
+#  % Erro: 0.852941176471
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 4
+#  Incorretas 29
+#  % Predicoes corretas: 0.121212121212
+#  % Erro: 0.878787878788
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 5
+#  Incorretas 28
+#  % Predicoes corretas: 0.151515151515
+#  % Erro: 0.848484848485
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 1
+#  Incorretas 31
+#  % Predicoes corretas: 0.03125
+#  % Erro: 0.96875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 1
+#  Incorretas 31
+#  % Predicoes corretas: 0.03125
+#  % Erro: 0.96875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 4
+#  Incorretas 27
+#  % Predicoes corretas: 0.129032258065
+#  % Erro: 0.870967741935
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 5
+#  Incorretas 26
+#  % Predicoes corretas: 0.161290322581
+#  % Erro: 0.838709677419
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 150
+#  Gestos para Teste: 30
+#  Corretas 6
+#  Incorretas 24
+#  % Predicoes corretas: 0.2
+#  % Erro: 0.8
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 4
+#  Incorretas 25
+#  % Predicoes corretas: 0.137931034483
+#  % Erro: 0.862068965517
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 3
+#  Incorretas 26
+#  % Predicoes corretas: 0.103448275862
+#  % Erro: 0.896551724138
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 152
+#  Gestos para Teste: 28
+#  Corretas 4
+#  Incorretas 24
+#  % Predicoes corretas: 0.142857142857
+#  % Erro: 0.857142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 152
+#  Gestos para Teste: 28
+#  Corretas 4
+#  Incorretas 24
+#  % Predicoes corretas: 0.142857142857
+#  % Erro: 0.857142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 3
+#  Incorretas 24
+#  % Predicoes corretas: 0.111111111111
+#  % Erro: 0.888888888889
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 2
+#  Incorretas 25
+#  % Predicoes corretas: 0.0740740740741
+#  % Erro: 0.925925925926
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 2
+#  Incorretas 24
+#  % Predicoes corretas: 0.0769230769231
+#  % Erro: 0.923076923077
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 2
+#  Incorretas 24
+#  % Predicoes corretas: 0.0769230769231
+#  % Erro: 0.923076923077
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 7
+#  Incorretas 18
+#  % Predicoes corretas: 0.28
+#  % Erro: 0.72
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 1
+#  Incorretas 24
+#  % Predicoes corretas: 0.04
+#  % Erro: 0.96
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 3
+#  Incorretas 21
+#  % Predicoes corretas: 0.125
+#  % Erro: 0.875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 2
+#  Incorretas 22
+#  % Predicoes corretas: 0.0833333333333
+#  % Erro: 0.916666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 157
+#  Gestos para Teste: 23
+#  Corretas 2
+#  Incorretas 21
+#  % Predicoes corretas: 0.0869565217391
+#  % Erro: 0.913043478261
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 3
+#  Incorretas 19
+#  % Predicoes corretas: 0.136363636364
+#  % Erro: 0.863636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 5
+#  Incorretas 17
+#  % Predicoes corretas: 0.227272727273
+#  % Erro: 0.772727272727
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 159
+#  Gestos para Teste: 21
+#  Corretas 1
+#  Incorretas 20
+#  % Predicoes corretas: 0.047619047619
+#  % Erro: 0.952380952381
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 159
+#  Gestos para Teste: 21
+#  Corretas 3
+#  Incorretas 18
+#  % Predicoes corretas: 0.142857142857
+#  % Erro: 0.857142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 3
+#  Incorretas 17
+#  % Predicoes corretas: 0.15
+#  % Erro: 0.85
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 2
+#  Incorretas 18
+#  % Predicoes corretas: 0.1
+#  % Erro: 0.9
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 1
+#  Incorretas 18
+#  % Predicoes corretas: 0.0526315789474
+#  % Erro: 0.947368421053
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 2
+#  Incorretas 17
+#  % Predicoes corretas: 0.105263157895
+#  % Erro: 0.894736842105
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 2
+#  Incorretas 16
+#  % Predicoes corretas: 0.111111111111
+#  % Erro: 0.888888888889
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 0
+#  Incorretas 18
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 2
+#  Incorretas 15
+#  % Predicoes corretas: 0.117647058824
+#  % Erro: 0.882352941176
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 1
+#  Incorretas 16
+#  % Predicoes corretas: 0.0588235294118
+#  % Erro: 0.941176470588
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 164
+#  Gestos para Teste: 16
+#  Corretas 1
+#  Incorretas 15
+#  % Predicoes corretas: 0.0625
+#  % Erro: 0.9375
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 0
+#  Incorretas 15
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 1
+#  Incorretas 14
+#  % Predicoes corretas: 0.0666666666667
+#  % Erro: 0.933333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 166
+#  Gestos para Teste: 14
+#  Corretas 3
+#  Incorretas 11
+#  % Predicoes corretas: 0.214285714286
+#  % Erro: 0.785714285714
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 166
+#  Gestos para Teste: 14
+#  Corretas 1
+#  Incorretas 13
+#  % Predicoes corretas: 0.0714285714286
+#  % Erro: 0.928571428571
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 2
+#  Incorretas 11
+#  % Predicoes corretas: 0.153846153846
+#  % Erro: 0.846153846154
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 1
+#  Incorretas 12
+#  % Predicoes corretas: 0.0769230769231
+#  % Erro: 0.923076923077
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 2
+#  Incorretas 10
+#  % Predicoes corretas: 0.166666666667
+#  % Erro: 0.833333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 0
+#  Incorretas 12
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 2
+#  Incorretas 9
+#  % Predicoes corretas: 0.181818181818
+#  % Erro: 0.818181818182
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 2
+#  Incorretas 9
+#  % Predicoes corretas: 0.181818181818
+#  % Erro: 0.818181818182
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 170
+#  Gestos para Teste: 10
+#  Corretas 1
+#  Incorretas 9
+#  % Predicoes corretas: 0.1
+#  % Erro: 0.9
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- One
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 171
+#  Gestos para Teste: 9
+#  Corretas 1
+#  Incorretas 8
+#  % Predicoes corretas: 0.111111111111
+#  % Erro: 0.888888888889
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 117
+#  Gestos para Teste: 63
+#  Corretas 35
+#  Incorretas 28
+#  % Predicoes corretas: 0.555555555556
+#  % Erro: 0.444444444444
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 118
+#  Gestos para Teste: 62
+#  Corretas 38
+#  Incorretas 24
+#  % Predicoes corretas: 0.612903225806
+#  % Erro: 0.387096774194
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 118
+#  Gestos para Teste: 62
+#  Corretas 37
+#  Incorretas 25
+#  % Predicoes corretas: 0.596774193548
+#  % Erro: 0.403225806452
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 119
+#  Gestos para Teste: 61
+#  Corretas 31
+#  Incorretas 30
+#  % Predicoes corretas: 0.508196721311
+#  % Erro: 0.491803278689
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 119
+#  Gestos para Teste: 61
+#  Corretas 34
+#  Incorretas 27
+#  % Predicoes corretas: 0.55737704918
+#  % Erro: 0.44262295082
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 120
+#  Gestos para Teste: 60
+#  Corretas 30
+#  Incorretas 30
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 120
+#  Gestos para Teste: 60
+#  Corretas 29
+#  Incorretas 31
+#  % Predicoes corretas: 0.483333333333
+#  % Erro: 0.516666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 121
+#  Gestos para Teste: 59
+#  Corretas 20
+#  Incorretas 39
+#  % Predicoes corretas: 0.338983050847
+#  % Erro: 0.661016949153
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 121
+#  Gestos para Teste: 59
+#  Corretas 25
+#  Incorretas 34
+#  % Predicoes corretas: 0.423728813559
+#  % Erro: 0.576271186441
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 122
+#  Gestos para Teste: 58
+#  Corretas 31
+#  Incorretas 27
+#  % Predicoes corretas: 0.534482758621
+#  % Erro: 0.465517241379
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 122
+#  Gestos para Teste: 58
+#  Corretas 31
+#  Incorretas 27
+#  % Predicoes corretas: 0.534482758621
+#  % Erro: 0.465517241379
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 123
+#  Gestos para Teste: 57
+#  Corretas 25
+#  Incorretas 32
+#  % Predicoes corretas: 0.438596491228
+#  % Erro: 0.561403508772
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 124
+#  Gestos para Teste: 56
+#  Corretas 22
+#  Incorretas 34
+#  % Predicoes corretas: 0.392857142857
+#  % Erro: 0.607142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 124
+#  Gestos para Teste: 56
+#  Corretas 30
+#  Incorretas 26
+#  % Predicoes corretas: 0.535714285714
+#  % Erro: 0.464285714286
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 125
+#  Gestos para Teste: 55
+#  Corretas 21
+#  Incorretas 34
+#  % Predicoes corretas: 0.381818181818
+#  % Erro: 0.618181818182
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 125
+#  Gestos para Teste: 55
+#  Corretas 20
+#  Incorretas 35
+#  % Predicoes corretas: 0.363636363636
+#  % Erro: 0.636363636364
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 126
+#  Gestos para Teste: 54
+#  Corretas 20
+#  Incorretas 34
+#  % Predicoes corretas: 0.37037037037
+#  % Erro: 0.62962962963
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 126
+#  Gestos para Teste: 54
+#  Corretas 21
+#  Incorretas 33
+#  % Predicoes corretas: 0.388888888889
+#  % Erro: 0.611111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 28
+#  Incorretas 25
+#  % Predicoes corretas: 0.528301886792
+#  % Erro: 0.471698113208
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 24
+#  Incorretas 29
+#  % Predicoes corretas: 0.452830188679
+#  % Erro: 0.547169811321
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 31
+#  Incorretas 21
+#  % Predicoes corretas: 0.596153846154
+#  % Erro: 0.403846153846
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 30
+#  Incorretas 22
+#  % Predicoes corretas: 0.576923076923
+#  % Erro: 0.423076923077
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 29
+#  Incorretas 22
+#  % Predicoes corretas: 0.56862745098
+#  % Erro: 0.43137254902
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 28
+#  Incorretas 23
+#  % Predicoes corretas: 0.549019607843
+#  % Erro: 0.450980392157
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 130
+#  Gestos para Teste: 50
+#  Corretas 29
+#  Incorretas 21
+#  % Predicoes corretas: 0.58
+#  % Erro: 0.42
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 27
+#  Incorretas 22
+#  % Predicoes corretas: 0.551020408163
+#  % Erro: 0.448979591837
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 22
+#  Incorretas 27
+#  % Predicoes corretas: 0.448979591837
+#  % Erro: 0.551020408163
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 132
+#  Gestos para Teste: 48
+#  Corretas 20
+#  Incorretas 28
+#  % Predicoes corretas: 0.416666666667
+#  % Erro: 0.583333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 132
+#  Gestos para Teste: 48
+#  Corretas 22
+#  Incorretas 26
+#  % Predicoes corretas: 0.458333333333
+#  % Erro: 0.541666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 20
+#  Incorretas 27
+#  % Predicoes corretas: 0.425531914894
+#  % Erro: 0.574468085106
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 24
+#  Incorretas 23
+#  % Predicoes corretas: 0.510638297872
+#  % Erro: 0.489361702128
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 29
+#  Incorretas 17
+#  % Predicoes corretas: 0.630434782609
+#  % Erro: 0.369565217391
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 31
+#  Incorretas 15
+#  % Predicoes corretas: 0.673913043478
+#  % Erro: 0.326086956522
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 24
+#  Incorretas 21
+#  % Predicoes corretas: 0.533333333333
+#  % Erro: 0.466666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 22
+#  Incorretas 23
+#  % Predicoes corretas: 0.488888888889
+#  % Erro: 0.511111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 24
+#  Incorretas 20
+#  % Predicoes corretas: 0.545454545455
+#  % Erro: 0.454545454545
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 11
+#  Incorretas 33
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 137
+#  Gestos para Teste: 43
+#  Corretas 18
+#  Incorretas 25
+#  % Predicoes corretas: 0.418604651163
+#  % Erro: 0.581395348837
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 20
+#  Incorretas 22
+#  % Predicoes corretas: 0.47619047619
+#  % Erro: 0.52380952381
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 14
+#  Incorretas 28
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 139
+#  Gestos para Teste: 41
+#  Corretas 16
+#  Incorretas 25
+#  % Predicoes corretas: 0.390243902439
+#  % Erro: 0.609756097561
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 139
+#  Gestos para Teste: 41
+#  Corretas 14
+#  Incorretas 27
+#  % Predicoes corretas: 0.341463414634
+#  % Erro: 0.658536585366
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 17
+#  Incorretas 23
+#  % Predicoes corretas: 0.425
+#  % Erro: 0.575
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 18
+#  Incorretas 22
+#  % Predicoes corretas: 0.45
+#  % Erro: 0.55
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 15
+#  Incorretas 24
+#  % Predicoes corretas: 0.384615384615
+#  % Erro: 0.615384615385
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 9
+#  Incorretas 30
+#  % Predicoes corretas: 0.230769230769
+#  % Erro: 0.769230769231
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 22
+#  Incorretas 16
+#  % Predicoes corretas: 0.578947368421
+#  % Erro: 0.421052631579
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 18
+#  Incorretas 20
+#  % Predicoes corretas: 0.473684210526
+#  % Erro: 0.526315789474
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 143
+#  Gestos para Teste: 37
+#  Corretas 21
+#  Incorretas 16
+#  % Predicoes corretas: 0.567567567568
+#  % Erro: 0.432432432432
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 20
+#  Incorretas 16
+#  % Predicoes corretas: 0.555555555556
+#  % Erro: 0.444444444444
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 18
+#  Incorretas 18
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 19
+#  Incorretas 16
+#  % Predicoes corretas: 0.542857142857
+#  % Erro: 0.457142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 18
+#  Incorretas 17
+#  % Predicoes corretas: 0.514285714286
+#  % Erro: 0.485714285714
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 146
+#  Gestos para Teste: 34
+#  Corretas 15
+#  Incorretas 19
+#  % Predicoes corretas: 0.441176470588
+#  % Erro: 0.558823529412
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 146
+#  Gestos para Teste: 34
+#  Corretas 17
+#  Incorretas 17
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 18
+#  Incorretas 15
+#  % Predicoes corretas: 0.545454545455
+#  % Erro: 0.454545454545
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 12
+#  Incorretas 21
+#  % Predicoes corretas: 0.363636363636
+#  % Erro: 0.636363636364
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 17
+#  Incorretas 15
+#  % Predicoes corretas: 0.53125
+#  % Erro: 0.46875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 10
+#  Incorretas 22
+#  % Predicoes corretas: 0.3125
+#  % Erro: 0.6875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 18
+#  Incorretas 13
+#  % Predicoes corretas: 0.58064516129
+#  % Erro: 0.41935483871
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 18
+#  Incorretas 13
+#  % Predicoes corretas: 0.58064516129
+#  % Erro: 0.41935483871
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 150
+#  Gestos para Teste: 30
+#  Corretas 17
+#  Incorretas 13
+#  % Predicoes corretas: 0.566666666667
+#  % Erro: 0.433333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 10
+#  Incorretas 19
+#  % Predicoes corretas: 0.344827586207
+#  % Erro: 0.655172413793
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 15
+#  Incorretas 14
+#  % Predicoes corretas: 0.51724137931
+#  % Erro: 0.48275862069
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 152
+#  Gestos para Teste: 28
+#  Corretas 13
+#  Incorretas 15
+#  % Predicoes corretas: 0.464285714286
+#  % Erro: 0.535714285714
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 152
+#  Gestos para Teste: 28
+#  Corretas 12
+#  Incorretas 16
+#  % Predicoes corretas: 0.428571428571
+#  % Erro: 0.571428571429
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 12
+#  Incorretas 15
+#  % Predicoes corretas: 0.444444444444
+#  % Erro: 0.555555555556
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 16
+#  Incorretas 11
+#  % Predicoes corretas: 0.592592592593
+#  % Erro: 0.407407407407
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 13
+#  Incorretas 13
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 13
+#  Incorretas 13
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 8
+#  Incorretas 17
+#  % Predicoes corretas: 0.32
+#  % Erro: 0.68
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 10
+#  Incorretas 15
+#  % Predicoes corretas: 0.4
+#  % Erro: 0.6
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 15
+#  Incorretas 9
+#  % Predicoes corretas: 0.625
+#  % Erro: 0.375
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 10
+#  Incorretas 14
+#  % Predicoes corretas: 0.416666666667
+#  % Erro: 0.583333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 157
+#  Gestos para Teste: 23
+#  Corretas 5
+#  Incorretas 18
+#  % Predicoes corretas: 0.217391304348
+#  % Erro: 0.782608695652
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 14
+#  Incorretas 8
+#  % Predicoes corretas: 0.636363636364
+#  % Erro: 0.363636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 14
+#  Incorretas 8
+#  % Predicoes corretas: 0.636363636364
+#  % Erro: 0.363636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 159
+#  Gestos para Teste: 21
+#  Corretas 7
+#  Incorretas 14
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 159
+#  Gestos para Teste: 21
+#  Corretas 13
+#  Incorretas 8
+#  % Predicoes corretas: 0.619047619048
+#  % Erro: 0.380952380952
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 12
+#  Incorretas 8
+#  % Predicoes corretas: 0.6
+#  % Erro: 0.4
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 9
+#  Incorretas 11
+#  % Predicoes corretas: 0.45
+#  % Erro: 0.55
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 10
+#  Incorretas 9
+#  % Predicoes corretas: 0.526315789474
+#  % Erro: 0.473684210526
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 7
+#  Incorretas 12
+#  % Predicoes corretas: 0.368421052632
+#  % Erro: 0.631578947368
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 8
+#  Incorretas 10
+#  % Predicoes corretas: 0.444444444444
+#  % Erro: 0.555555555556
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 10
+#  Incorretas 8
+#  % Predicoes corretas: 0.555555555556
+#  % Erro: 0.444444444444
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 10
+#  Incorretas 7
+#  % Predicoes corretas: 0.588235294118
+#  % Erro: 0.411764705882
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 7
+#  Incorretas 10
+#  % Predicoes corretas: 0.411764705882
+#  % Erro: 0.588235294118
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 164
+#  Gestos para Teste: 16
+#  Corretas 6
+#  Incorretas 10
+#  % Predicoes corretas: 0.375
+#  % Erro: 0.625
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 3
+#  Incorretas 12
+#  % Predicoes corretas: 0.2
+#  % Erro: 0.8
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 10
+#  Incorretas 5
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 166
+#  Gestos para Teste: 14
+#  Corretas 9
+#  Incorretas 5
+#  % Predicoes corretas: 0.642857142857
+#  % Erro: 0.357142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 166
+#  Gestos para Teste: 14
+#  Corretas 8
+#  Incorretas 6
+#  % Predicoes corretas: 0.571428571429
+#  % Erro: 0.428571428571
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 7
+#  Incorretas 6
+#  % Predicoes corretas: 0.538461538462
+#  % Erro: 0.461538461538
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 4
+#  Incorretas 9
+#  % Predicoes corretas: 0.307692307692
+#  % Erro: 0.692307692308
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 3
+#  Incorretas 9
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 4
+#  Incorretas 8
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 2
+#  Incorretas 9
+#  % Predicoes corretas: 0.181818181818
+#  % Erro: 0.818181818182
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 5
+#  Incorretas 6
+#  % Predicoes corretas: 0.454545454545
+#  % Erro: 0.545454545455
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 170
+#  Gestos para Teste: 10
+#  Corretas 7
+#  Incorretas 3
+#  % Predicoes corretas: 0.7
+#  % Erro: 0.3
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model One - vs- Rest
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 171
+#  Gestos para Teste: 9
+#  Corretas 4
+#  Incorretas 5
+#  % Predicoes corretas: 0.444444444444
+#  % Erro: 0.555555555556
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 126
+#  Gestos para Teste: 54
+#  Corretas 34
+#  Incorretas 20
+#  % Predicoes corretas: 0.62962962963
+#  % Erro: 0.37037037037
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 35
+#  Incorretas 18
+#  % Predicoes corretas: 0.660377358491
+#  % Erro: 0.339622641509
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 31
+#  Incorretas 22
+#  % Predicoes corretas: 0.584905660377
+#  % Erro: 0.415094339623
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 32
+#  Incorretas 20
+#  % Predicoes corretas: 0.615384615385
+#  % Erro: 0.384615384615
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 26
+#  Incorretas 26
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 28
+#  Incorretas 23
+#  % Predicoes corretas: 0.549019607843
+#  % Erro: 0.450980392157
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 38
+#  Incorretas 13
+#  % Predicoes corretas: 0.745098039216
+#  % Erro: 0.254901960784
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 130
+#  Gestos para Teste: 50
+#  Corretas 33
+#  Incorretas 17
+#  % Predicoes corretas: 0.66
+#  % Erro: 0.34
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 130
+#  Gestos para Teste: 50
+#  Corretas 33
+#  Incorretas 17
+#  % Predicoes corretas: 0.66
+#  % Erro: 0.34
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 35
+#  Incorretas 14
+#  % Predicoes corretas: 0.714285714286
+#  % Erro: 0.285714285714
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 34
+#  Incorretas 15
+#  % Predicoes corretas: 0.69387755102
+#  % Erro: 0.30612244898
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 132
+#  Gestos para Teste: 48
+#  Corretas 33
+#  Incorretas 15
+#  % Predicoes corretas: 0.6875
+#  % Erro: 0.3125
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 32
+#  Incorretas 15
+#  % Predicoes corretas: 0.68085106383
+#  % Erro: 0.31914893617
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 27
+#  Incorretas 20
+#  % Predicoes corretas: 0.574468085106
+#  % Erro: 0.425531914894
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 31
+#  Incorretas 15
+#  % Predicoes corretas: 0.673913043478
+#  % Erro: 0.326086956522
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 29
+#  Incorretas 17
+#  % Predicoes corretas: 0.630434782609
+#  % Erro: 0.369565217391
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 29
+#  Incorretas 16
+#  % Predicoes corretas: 0.644444444444
+#  % Erro: 0.355555555556
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 27
+#  Incorretas 18
+#  % Predicoes corretas: 0.6
+#  % Erro: 0.4
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 28
+#  Incorretas 16
+#  % Predicoes corretas: 0.636363636364
+#  % Erro: 0.363636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 34
+#  Incorretas 10
+#  % Predicoes corretas: 0.772727272727
+#  % Erro: 0.227272727273
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 137
+#  Gestos para Teste: 43
+#  Corretas 27
+#  Incorretas 16
+#  % Predicoes corretas: 0.627906976744
+#  % Erro: 0.372093023256
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 137
+#  Gestos para Teste: 43
+#  Corretas 29
+#  Incorretas 14
+#  % Predicoes corretas: 0.674418604651
+#  % Erro: 0.325581395349
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 25
+#  Incorretas 17
+#  % Predicoes corretas: 0.595238095238
+#  % Erro: 0.404761904762
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 20
+#  Incorretas 22
+#  % Predicoes corretas: 0.47619047619
+#  % Erro: 0.52380952381
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 139
+#  Gestos para Teste: 41
+#  Corretas 24
+#  Incorretas 17
+#  % Predicoes corretas: 0.585365853659
+#  % Erro: 0.414634146341
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 29
+#  Incorretas 11
+#  % Predicoes corretas: 0.725
+#  % Erro: 0.275
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 25
+#  Incorretas 15
+#  % Predicoes corretas: 0.625
+#  % Erro: 0.375
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 23
+#  Incorretas 16
+#  % Predicoes corretas: 0.589743589744
+#  % Erro: 0.410256410256
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 26
+#  Incorretas 13
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 24
+#  Incorretas 14
+#  % Predicoes corretas: 0.631578947368
+#  % Erro: 0.368421052632
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 25
+#  Incorretas 13
+#  % Predicoes corretas: 0.657894736842
+#  % Erro: 0.342105263158
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 143
+#  Gestos para Teste: 37
+#  Corretas 20
+#  Incorretas 17
+#  % Predicoes corretas: 0.540540540541
+#  % Erro: 0.459459459459
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 143
+#  Gestos para Teste: 37
+#  Corretas 22
+#  Incorretas 15
+#  % Predicoes corretas: 0.594594594595
+#  % Erro: 0.405405405405
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 19
+#  Incorretas 17
+#  % Predicoes corretas: 0.527777777778
+#  % Erro: 0.472222222222
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 25
+#  Incorretas 11
+#  % Predicoes corretas: 0.694444444444
+#  % Erro: 0.305555555556
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 13
+#  Incorretas 22
+#  % Predicoes corretas: 0.371428571429
+#  % Erro: 0.628571428571
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 17
+#  Incorretas 18
+#  % Predicoes corretas: 0.485714285714
+#  % Erro: 0.514285714286
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 146
+#  Gestos para Teste: 34
+#  Corretas 25
+#  Incorretas 9
+#  % Predicoes corretas: 0.735294117647
+#  % Erro: 0.264705882353
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 19
+#  Incorretas 14
+#  % Predicoes corretas: 0.575757575758
+#  % Erro: 0.424242424242
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 21
+#  Incorretas 12
+#  % Predicoes corretas: 0.636363636364
+#  % Erro: 0.363636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 22
+#  Incorretas 10
+#  % Predicoes corretas: 0.6875
+#  % Erro: 0.3125
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 24
+#  Incorretas 8
+#  % Predicoes corretas: 0.75
+#  % Erro: 0.25
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 18
+#  Incorretas 13
+#  % Predicoes corretas: 0.58064516129
+#  % Erro: 0.41935483871
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 18
+#  Incorretas 13
+#  % Predicoes corretas: 0.58064516129
+#  % Erro: 0.41935483871
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 150
+#  Gestos para Teste: 30
+#  Corretas 18
+#  Incorretas 12
+#  % Predicoes corretas: 0.6
+#  % Erro: 0.4
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 150
+#  Gestos para Teste: 30
+#  Corretas 17
+#  Incorretas 13
+#  % Predicoes corretas: 0.566666666667
+#  % Erro: 0.433333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 18
+#  Incorretas 11
+#  % Predicoes corretas: 0.620689655172
+#  % Erro: 0.379310344828
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 19
+#  Incorretas 10
+#  % Predicoes corretas: 0.655172413793
+#  % Erro: 0.344827586207
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 152
+#  Gestos para Teste: 28
+#  Corretas 16
+#  Incorretas 12
+#  % Predicoes corretas: 0.571428571429
+#  % Erro: 0.428571428571
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 17
+#  Incorretas 10
+#  % Predicoes corretas: 0.62962962963
+#  % Erro: 0.37037037037
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 16
+#  Incorretas 11
+#  % Predicoes corretas: 0.592592592593
+#  % Erro: 0.407407407407
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 16
+#  Incorretas 10
+#  % Predicoes corretas: 0.615384615385
+#  % Erro: 0.384615384615
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 19
+#  Incorretas 7
+#  % Predicoes corretas: 0.730769230769
+#  % Erro: 0.269230769231
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 15
+#  Incorretas 10
+#  % Predicoes corretas: 0.6
+#  % Erro: 0.4
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 16
+#  Incorretas 9
+#  % Predicoes corretas: 0.64
+#  % Erro: 0.36
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 14
+#  Incorretas 10
+#  % Predicoes corretas: 0.583333333333
+#  % Erro: 0.416666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 14
+#  Incorretas 10
+#  % Predicoes corretas: 0.583333333333
+#  % Erro: 0.416666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 157
+#  Gestos para Teste: 23
+#  Corretas 13
+#  Incorretas 10
+#  % Predicoes corretas: 0.565217391304
+#  % Erro: 0.434782608696
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 157
+#  Gestos para Teste: 23
+#  Corretas 11
+#  Incorretas 12
+#  % Predicoes corretas: 0.478260869565
+#  % Erro: 0.521739130435
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 15
+#  Incorretas 7
+#  % Predicoes corretas: 0.681818181818
+#  % Erro: 0.318181818182
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 13
+#  Incorretas 9
+#  % Predicoes corretas: 0.590909090909
+#  % Erro: 0.409090909091
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 159
+#  Gestos para Teste: 21
+#  Corretas 10
+#  Incorretas 11
+#  % Predicoes corretas: 0.47619047619
+#  % Erro: 0.52380952381
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 12
+#  Incorretas 8
+#  % Predicoes corretas: 0.6
+#  % Erro: 0.4
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 7
+#  Incorretas 13
+#  % Predicoes corretas: 0.35
+#  % Erro: 0.65
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 11
+#  Incorretas 8
+#  % Predicoes corretas: 0.578947368421
+#  % Erro: 0.421052631579
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 13
+#  Incorretas 6
+#  % Predicoes corretas: 0.684210526316
+#  % Erro: 0.315789473684
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 11
+#  Incorretas 7
+#  % Predicoes corretas: 0.611111111111
+#  % Erro: 0.388888888889
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 11
+#  Incorretas 7
+#  % Predicoes corretas: 0.611111111111
+#  % Erro: 0.388888888889
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 11
+#  Incorretas 6
+#  % Predicoes corretas: 0.647058823529
+#  % Erro: 0.352941176471
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 12
+#  Incorretas 5
+#  % Predicoes corretas: 0.705882352941
+#  % Erro: 0.294117647059
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 164
+#  Gestos para Teste: 16
+#  Corretas 9
+#  Incorretas 7
+#  % Predicoes corretas: 0.5625
+#  % Erro: 0.4375
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 164
+#  Gestos para Teste: 16
+#  Corretas 9
+#  Incorretas 7
+#  % Predicoes corretas: 0.5625
+#  % Erro: 0.4375
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 13
+#  Incorretas 2
+#  % Predicoes corretas: 0.866666666667
+#  % Erro: 0.133333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 11
+#  Incorretas 4
+#  % Predicoes corretas: 0.733333333333
+#  % Erro: 0.266666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 166
+#  Gestos para Teste: 14
+#  Corretas 12
+#  Incorretas 2
+#  % Predicoes corretas: 0.857142857143
+#  % Erro: 0.142857142857
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 8
+#  Incorretas 5
+#  % Predicoes corretas: 0.615384615385
+#  % Erro: 0.384615384615
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 8
+#  Incorretas 5
+#  % Predicoes corretas: 0.615384615385
+#  % Erro: 0.384615384615
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 8
+#  Incorretas 4
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 7
+#  Incorretas 5
+#  % Predicoes corretas: 0.583333333333
+#  % Erro: 0.416666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 7
+#  Incorretas 4
+#  % Predicoes corretas: 0.636363636364
+#  % Erro: 0.363636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 7
+#  Incorretas 4
+#  % Predicoes corretas: 0.636363636364
+#  % Erro: 0.363636363636
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 170
+#  Gestos para Teste: 10
+#  Corretas 5
+#  Incorretas 5
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 170
+#  Gestos para Teste: 10
+#  Corretas 7
+#  Incorretas 3
+#  % Predicoes corretas: 0.7
+#  % Erro: 0.3
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 171
+#  Gestos para Teste: 9
+#  Corretas 6
+#  Incorretas 3
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 171
+#  Gestos para Teste: 9
+#  Corretas 6
+#  Incorretas 3
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 172
+#  Gestos para Teste: 8
+#  Corretas 5
+#  Incorretas 3
+#  % Predicoes corretas: 0.625
+#  % Erro: 0.375
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 172
+#  Gestos para Teste: 8
+#  Corretas 6
+#  Incorretas 2
+#  % Predicoes corretas: 0.75
+#  % Erro: 0.25
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 173
+#  Gestos para Teste: 7
+#  Corretas 5
+#  Incorretas 2
+#  % Predicoes corretas: 0.714285714286
+#  % Erro: 0.285714285714
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 174
+#  Gestos para Teste: 6
+#  Corretas 4
+#  Incorretas 2
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 174
+#  Gestos para Teste: 6
+#  Corretas 3
+#  Incorretas 3
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 175
+#  Gestos para Teste: 5
+#  Corretas 5
+#  Incorretas 0
+#  % Predicoes corretas: 1.0
+#  % Erro: 0.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 175
+#  Gestos para Teste: 5
+#  Corretas 4
+#  Incorretas 1
+#  % Predicoes corretas: 0.8
+#  % Erro: 0.2
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 176
+#  Gestos para Teste: 4
+#  Corretas 2
+#  Incorretas 2
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 176
+#  Gestos para Teste: 4
+#  Corretas 4
+#  Incorretas 0
+#  % Predicoes corretas: 1.0
+#  % Erro: 0.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 177
+#  Gestos para Teste: 3
+#  Corretas 2
+#  Incorretas 1
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 177
+#  Gestos para Teste: 3
+#  Corretas 2
+#  Incorretas 1
+#  % Predicoes corretas: 0.666666666667
+#  % Erro: 0.333333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 178
+#  Gestos para Teste: 2
+#  Corretas 2
+#  Incorretas 0
+#  % Predicoes corretas: 1.0
+#  % Erro: 0.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 178
+#  Gestos para Teste: 2
+#  Corretas 0
+#  Incorretas 2
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 179
+#  Gestos para Teste: 1
+#  Corretas 0
+#  Incorretas 1
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Decision Tree
+... testing model
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 126
+#  Gestos para Teste: 54
+#  Corretas 20
+#  Incorretas 34
+#  % Predicoes corretas: 0.37037037037
+#  % Erro: 0.62962962963
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 26
+#  Incorretas 27
+#  % Predicoes corretas: 0.490566037736
+#  % Erro: 0.509433962264
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 127
+#  Gestos para Teste: 53
+#  Corretas 11
+#  Incorretas 42
+#  % Predicoes corretas: 0.207547169811
+#  % Erro: 0.792452830189
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 25
+#  Incorretas 27
+#  % Predicoes corretas: 0.480769230769
+#  % Erro: 0.519230769231
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 128
+#  Gestos para Teste: 52
+#  Corretas 15
+#  Incorretas 37
+#  % Predicoes corretas: 0.288461538462
+#  % Erro: 0.711538461538
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 19
+#  Incorretas 32
+#  % Predicoes corretas: 0.372549019608
+#  % Erro: 0.627450980392
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 129
+#  Gestos para Teste: 51
+#  Corretas 24
+#  Incorretas 27
+#  % Predicoes corretas: 0.470588235294
+#  % Erro: 0.529411764706
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 130
+#  Gestos para Teste: 50
+#  Corretas 18
+#  Incorretas 32
+#  % Predicoes corretas: 0.36
+#  % Erro: 0.64
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 130
+#  Gestos para Teste: 50
+#  Corretas 24
+#  Incorretas 26
+#  % Predicoes corretas: 0.48
+#  % Erro: 0.52
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 13
+#  Incorretas 36
+#  % Predicoes corretas: 0.265306122449
+#  % Erro: 0.734693877551
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 131
+#  Gestos para Teste: 49
+#  Corretas 19
+#  Incorretas 30
+#  % Predicoes corretas: 0.387755102041
+#  % Erro: 0.612244897959
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 132
+#  Gestos para Teste: 48
+#  Corretas 20
+#  Incorretas 28
+#  % Predicoes corretas: 0.416666666667
+#  % Erro: 0.583333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 20
+#  Incorretas 27
+#  % Predicoes corretas: 0.425531914894
+#  % Erro: 0.574468085106
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 133
+#  Gestos para Teste: 47
+#  Corretas 18
+#  Incorretas 29
+#  % Predicoes corretas: 0.382978723404
+#  % Erro: 0.617021276596
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 18
+#  Incorretas 28
+#  % Predicoes corretas: 0.391304347826
+#  % Erro: 0.608695652174
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 134
+#  Gestos para Teste: 46
+#  Corretas 16
+#  Incorretas 30
+#  % Predicoes corretas: 0.347826086957
+#  % Erro: 0.652173913043
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 13
+#  Incorretas 32
+#  % Predicoes corretas: 0.288888888889
+#  % Erro: 0.711111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 135
+#  Gestos para Teste: 45
+#  Corretas 10
+#  Incorretas 35
+#  % Predicoes corretas: 0.222222222222
+#  % Erro: 0.777777777778
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 18
+#  Incorretas 26
+#  % Predicoes corretas: 0.409090909091
+#  % Erro: 0.590909090909
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 136
+#  Gestos para Teste: 44
+#  Corretas 14
+#  Incorretas 30
+#  % Predicoes corretas: 0.318181818182
+#  % Erro: 0.681818181818
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 137
+#  Gestos para Teste: 43
+#  Corretas 16
+#  Incorretas 27
+#  % Predicoes corretas: 0.372093023256
+#  % Erro: 0.627906976744
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 137
+#  Gestos para Teste: 43
+#  Corretas 15
+#  Incorretas 28
+#  % Predicoes corretas: 0.348837209302
+#  % Erro: 0.651162790698
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 11
+#  Incorretas 31
+#  % Predicoes corretas: 0.261904761905
+#  % Erro: 0.738095238095
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 138
+#  Gestos para Teste: 42
+#  Corretas 13
+#  Incorretas 29
+#  % Predicoes corretas: 0.309523809524
+#  % Erro: 0.690476190476
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 139
+#  Gestos para Teste: 41
+#  Corretas 15
+#  Incorretas 26
+#  % Predicoes corretas: 0.365853658537
+#  % Erro: 0.634146341463
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 12
+#  Incorretas 28
+#  % Predicoes corretas: 0.3
+#  % Erro: 0.7
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 140
+#  Gestos para Teste: 40
+#  Corretas 13
+#  Incorretas 27
+#  % Predicoes corretas: 0.325
+#  % Erro: 0.675
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 15
+#  Incorretas 24
+#  % Predicoes corretas: 0.384615384615
+#  % Erro: 0.615384615385
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 141
+#  Gestos para Teste: 39
+#  Corretas 11
+#  Incorretas 28
+#  % Predicoes corretas: 0.282051282051
+#  % Erro: 0.717948717949
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 13
+#  Incorretas 25
+#  % Predicoes corretas: 0.342105263158
+#  % Erro: 0.657894736842
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 142
+#  Gestos para Teste: 38
+#  Corretas 17
+#  Incorretas 21
+#  % Predicoes corretas: 0.447368421053
+#  % Erro: 0.552631578947
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 143
+#  Gestos para Teste: 37
+#  Corretas 10
+#  Incorretas 27
+#  % Predicoes corretas: 0.27027027027
+#  % Erro: 0.72972972973
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 143
+#  Gestos para Teste: 37
+#  Corretas 11
+#  Incorretas 26
+#  % Predicoes corretas: 0.297297297297
+#  % Erro: 0.702702702703
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 16
+#  Incorretas 20
+#  % Predicoes corretas: 0.444444444444
+#  % Erro: 0.555555555556
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 144
+#  Gestos para Teste: 36
+#  Corretas 5
+#  Incorretas 31
+#  % Predicoes corretas: 0.138888888889
+#  % Erro: 0.861111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 8
+#  Incorretas 27
+#  % Predicoes corretas: 0.228571428571
+#  % Erro: 0.771428571429
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 145
+#  Gestos para Teste: 35
+#  Corretas 13
+#  Incorretas 22
+#  % Predicoes corretas: 0.371428571429
+#  % Erro: 0.628571428571
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 146
+#  Gestos para Teste: 34
+#  Corretas 14
+#  Incorretas 20
+#  % Predicoes corretas: 0.411764705882
+#  % Erro: 0.588235294118
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 14
+#  Incorretas 19
+#  % Predicoes corretas: 0.424242424242
+#  % Erro: 0.575757575758
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 147
+#  Gestos para Teste: 33
+#  Corretas 7
+#  Incorretas 26
+#  % Predicoes corretas: 0.212121212121
+#  % Erro: 0.787878787879
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 9
+#  Incorretas 23
+#  % Predicoes corretas: 0.28125
+#  % Erro: 0.71875
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 148
+#  Gestos para Teste: 32
+#  Corretas 8
+#  Incorretas 24
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 4
+#  Incorretas 27
+#  % Predicoes corretas: 0.129032258065
+#  % Erro: 0.870967741935
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 149
+#  Gestos para Teste: 31
+#  Corretas 7
+#  Incorretas 24
+#  % Predicoes corretas: 0.225806451613
+#  % Erro: 0.774193548387
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 150
+#  Gestos para Teste: 30
+#  Corretas 13
+#  Incorretas 17
+#  % Predicoes corretas: 0.433333333333
+#  % Erro: 0.566666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 150
+#  Gestos para Teste: 30
+#  Corretas 13
+#  Incorretas 17
+#  % Predicoes corretas: 0.433333333333
+#  % Erro: 0.566666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 9
+#  Incorretas 20
+#  % Predicoes corretas: 0.310344827586
+#  % Erro: 0.689655172414
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 151
+#  Gestos para Teste: 29
+#  Corretas 12
+#  Incorretas 17
+#  % Predicoes corretas: 0.413793103448
+#  % Erro: 0.586206896552
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 152
+#  Gestos para Teste: 28
+#  Corretas 13
+#  Incorretas 15
+#  % Predicoes corretas: 0.464285714286
+#  % Erro: 0.535714285714
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 9
+#  Incorretas 18
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 153
+#  Gestos para Teste: 27
+#  Corretas 6
+#  Incorretas 21
+#  % Predicoes corretas: 0.222222222222
+#  % Erro: 0.777777777778
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 10
+#  Incorretas 16
+#  % Predicoes corretas: 0.384615384615
+#  % Erro: 0.615384615385
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 154
+#  Gestos para Teste: 26
+#  Corretas 5
+#  Incorretas 21
+#  % Predicoes corretas: 0.192307692308
+#  % Erro: 0.807692307692
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 7
+#  Incorretas 18
+#  % Predicoes corretas: 0.28
+#  % Erro: 0.72
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 155
+#  Gestos para Teste: 25
+#  Corretas 9
+#  Incorretas 16
+#  % Predicoes corretas: 0.36
+#  % Erro: 0.64
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 5
+#  Incorretas 19
+#  % Predicoes corretas: 0.208333333333
+#  % Erro: 0.791666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 156
+#  Gestos para Teste: 24
+#  Corretas 8
+#  Incorretas 16
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 157
+#  Gestos para Teste: 23
+#  Corretas 10
+#  Incorretas 13
+#  % Predicoes corretas: 0.434782608696
+#  % Erro: 0.565217391304
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 157
+#  Gestos para Teste: 23
+#  Corretas 6
+#  Incorretas 17
+#  % Predicoes corretas: 0.260869565217
+#  % Erro: 0.739130434783
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 8
+#  Incorretas 14
+#  % Predicoes corretas: 0.363636363636
+#  % Erro: 0.636363636364
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 158
+#  Gestos para Teste: 22
+#  Corretas 10
+#  Incorretas 12
+#  % Predicoes corretas: 0.454545454545
+#  % Erro: 0.545454545455
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 159
+#  Gestos para Teste: 21
+#  Corretas 9
+#  Incorretas 12
+#  % Predicoes corretas: 0.428571428571
+#  % Erro: 0.571428571429
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 6
+#  Incorretas 14
+#  % Predicoes corretas: 0.3
+#  % Erro: 0.7
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 160
+#  Gestos para Teste: 20
+#  Corretas 6
+#  Incorretas 14
+#  % Predicoes corretas: 0.3
+#  % Erro: 0.7
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 6
+#  Incorretas 13
+#  % Predicoes corretas: 0.315789473684
+#  % Erro: 0.684210526316
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 161
+#  Gestos para Teste: 19
+#  Corretas 8
+#  Incorretas 11
+#  % Predicoes corretas: 0.421052631579
+#  % Erro: 0.578947368421
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 6
+#  Incorretas 12
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 162
+#  Gestos para Teste: 18
+#  Corretas 7
+#  Incorretas 11
+#  % Predicoes corretas: 0.388888888889
+#  % Erro: 0.611111111111
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 6
+#  Incorretas 11
+#  % Predicoes corretas: 0.352941176471
+#  % Erro: 0.647058823529
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 163
+#  Gestos para Teste: 17
+#  Corretas 5
+#  Incorretas 12
+#  % Predicoes corretas: 0.294117647059
+#  % Erro: 0.705882352941
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 164
+#  Gestos para Teste: 16
+#  Corretas 7
+#  Incorretas 9
+#  % Predicoes corretas: 0.4375
+#  % Erro: 0.5625
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 164
+#  Gestos para Teste: 16
+#  Corretas 3
+#  Incorretas 13
+#  % Predicoes corretas: 0.1875
+#  % Erro: 0.8125
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 6
+#  Incorretas 9
+#  % Predicoes corretas: 0.4
+#  % Erro: 0.6
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 165
+#  Gestos para Teste: 15
+#  Corretas 4
+#  Incorretas 11
+#  % Predicoes corretas: 0.266666666667
+#  % Erro: 0.733333333333
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 166
+#  Gestos para Teste: 14
+#  Corretas 6
+#  Incorretas 8
+#  % Predicoes corretas: 0.428571428571
+#  % Erro: 0.571428571429
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 4
+#  Incorretas 9
+#  % Predicoes corretas: 0.307692307692
+#  % Erro: 0.692307692308
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 167
+#  Gestos para Teste: 13
+#  Corretas 5
+#  Incorretas 8
+#  % Predicoes corretas: 0.384615384615
+#  % Erro: 0.615384615385
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 4
+#  Incorretas 8
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 168
+#  Gestos para Teste: 12
+#  Corretas 3
+#  Incorretas 9
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 6
+#  Incorretas 5
+#  % Predicoes corretas: 0.545454545455
+#  % Erro: 0.454545454545
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 169
+#  Gestos para Teste: 11
+#  Corretas 6
+#  Incorretas 5
+#  % Predicoes corretas: 0.545454545455
+#  % Erro: 0.454545454545
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 170
+#  Gestos para Teste: 10
+#  Corretas 1
+#  Incorretas 9
+#  % Predicoes corretas: 0.1
+#  % Erro: 0.9
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 170
+#  Gestos para Teste: 10
+#  Corretas 2
+#  Incorretas 8
+#  % Predicoes corretas: 0.2
+#  % Erro: 0.8
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 171
+#  Gestos para Teste: 9
+#  Corretas 2
+#  Incorretas 7
+#  % Predicoes corretas: 0.222222222222
+#  % Erro: 0.777777777778
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 171
+#  Gestos para Teste: 9
+#  Corretas 2
+#  Incorretas 7
+#  % Predicoes corretas: 0.222222222222
+#  % Erro: 0.777777777778
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 172
+#  Gestos para Teste: 8
+#  Corretas 2
+#  Incorretas 6
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 172
+#  Gestos para Teste: 8
+#  Corretas 3
+#  Incorretas 5
+#  % Predicoes corretas: 0.375
+#  % Erro: 0.625
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 173
+#  Gestos para Teste: 7
+#  Corretas 1
+#  Incorretas 6
+#  % Predicoes corretas: 0.142857142857
+#  % Erro: 0.857142857143
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 174
+#  Gestos para Teste: 6
+#  Corretas 0
+#  Incorretas 6
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 174
+#  Gestos para Teste: 6
+#  Corretas 2
+#  Incorretas 4
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 175
+#  Gestos para Teste: 5
+#  Corretas 2
+#  Incorretas 3
+#  % Predicoes corretas: 0.4
+#  % Erro: 0.6
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 175
+#  Gestos para Teste: 5
+#  Corretas 0
+#  Incorretas 5
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 176
+#  Gestos para Teste: 4
+#  Corretas 1
+#  Incorretas 3
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 176
+#  Gestos para Teste: 4
+#  Corretas 1
+#  Incorretas 3
+#  % Predicoes corretas: 0.25
+#  % Erro: 0.75
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 177
+#  Gestos para Teste: 3
+#  Corretas 1
+#  Incorretas 2
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 177
+#  Gestos para Teste: 3
+#  Corretas 1
+#  Incorretas 2
+#  % Predicoes corretas: 0.333333333333
+#  % Erro: 0.666666666667
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 178
+#  Gestos para Teste: 2
+#  Corretas 2
+#  Incorretas 0
+#  % Predicoes corretas: 1.0
+#  % Erro: 0.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 178
+#  Gestos para Teste: 2
+#  Corretas 1
+#  Incorretas 1
+#  % Predicoes corretas: 0.5
+#  % Erro: 0.5
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
+##############################
+# 
+#     Estatisticas de Treinamento
+# 
+#  Gestos para Treinamento: 179
+#  Gestos para Teste: 1
+#  Corretas 0
+#  Incorretas 1
+#  % Predicoes corretas: 0.0
+#  % Erro: 1.0
+##############################
+...load data set fingers.csv
+Total of Gesture: 180
+... mixed dataSet
+... making a training set
+making a test set
+... training model with Stochastic Gradient Descent
+... testing model
