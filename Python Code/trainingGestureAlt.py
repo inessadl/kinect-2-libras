@@ -51,9 +51,9 @@ class SVMTraining(object):
 			for k in xrange(len(readList[0])-1):
 				if((k!=10)and(k!=11)):
 					if(k%2==0):
-						gesture.append(round(np.float64(readList[i][k])-np.float64(readList[i][10]),2))
+						gesture.append(round((np.float64(readList[i][k])-np.float64(readList[i][10]))**2,2))
 					else:
-						gesture.append(round(np.float64(readList[i][k])-np.float64(readList[i][11]),2))
+						gesture.append(round((np.float64(readList[i][k])-np.float64(readList[i][11]))**2,2))
 
 			self.__answerTrain.append(np.float64(readList[i][k+1]))
 			self.__trainSet.append(gesture)
@@ -66,9 +66,9 @@ class SVMTraining(object):
 			for k in xrange(len(readList[0])-1):
 				if((k!=10)and(k!=11)):
 					if(k%2==0):
-						gestureTest.append(round(np.float64(readList[index][k])-np.float64(readList[index][10]),2))
+						gestureTest.append(round((np.float64(readList[index][k])-np.float64(readList[index][10]))**2,2))
 					else:
-						gestureTest.append(round(np.float64(readList[index][k])-np.float64(readList[index][11]),2))
+						gestureTest.append(round((np.float64(readList[index][k])-np.float64(readList[index][11]))**2,2))
 
 
 			self.__answerTest.append(np.float64(readList[index][k+1]))
@@ -89,7 +89,7 @@ class SVMTraining(object):
 
 	def trainingOvO(self):
 		print("... training model One - vs- One")
-		clf = svm.SVC(decision_function_shape='ovo')
+		clf = svm.SVC(decision_function_shape='ovo',kernel='linear')
 
 
 		clf.fit(self.__trainSet,self.__answerTrain)
@@ -102,6 +102,7 @@ class SVMTraining(object):
 	def decisionTreeTraining(self):
 		print("... training model with Decision Tree")
 		clf = tree.DecisionTreeClassifier()
+		print(self.__trainSet)
 		clf.fit(self.__trainSet,self.__answerTrain)
 		#Realiza os testes
 		print ("... testing model")
@@ -130,27 +131,31 @@ class SVMTraining(object):
 
 		self.__statistics(correct,incorrect)
 
-
-
 	#v1 indica as corretas
 	#v2 indica as incorretas
 	def __statistics(self,v1,v2):
 		#Total de gestos no conjunto de testes
 		totGesture = np.float64(len(self.__testSet))
-		print("##############################")
+		print("########################################")
 		print("# ")
 		print("#     Estatisticas de Treinamento")
 		print("# ")
 		print("#  Gestos para Treinamento: "+str(len(self.__trainSet)))
 		print("#  Gestos para Teste: "+str(len(self.__testSet)))
-		print ("#  Corretas "+str(v1))
-		print ("#  Incorretas "+str(v2))
+		print("#  Corretas "+str(v1))
+		print("#  Incorretas "+str(v2))
 		pc = v1/totGesture
 		print("#  % Predicoes corretas: "+str(pc))
 		erro = v2/totGesture
 		print("#  % Erro: "+str(erro))
-		print("##############################")
+		print("########################################")
 
+	#So serve para automatizar o script
+	def __statisticsTest(self,v1,v2,tip):
+		totGesture = np.float64(len(self.__testSet))
+		pc = v1/totGesture
+		erro = v2/totGesture
+		print(tip+","+str(v1)+","+str(v2)+","+str(pc)+","+str(erro))
 
 if __name__ == '__main__':
 	x = SVMTraining(np.float64(sys.argv[3]))
@@ -163,3 +168,5 @@ if __name__ == '__main__':
 		x.decisionTreeTraining()
 	elif(sys.argv[2] == "sgd"):
 		x.sGradientDescent()
+	elif(sys.argv[2] == "sim"):
+		x.simulationBestModel()
