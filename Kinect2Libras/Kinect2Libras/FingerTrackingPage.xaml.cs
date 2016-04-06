@@ -270,8 +270,8 @@ namespace Kinect2Libras
                 this.rightHandFingers[9].X + "-" + this.rightHandFingers[9].Y + "-" +
                 this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
 
-
-            System.IO.File.AppendAllText(@"C:\Users\Lucas Tortelli\Desktop\FingerTracking\New\kinect-2-libras\Recorded\fingers.txt", aux);
+            System.IO.File.AppendAllText(@"fingers.csv", aux);
+            //System.IO.File.AppendAllText(@"C:\Users\Lucas Tortelli\Desktop\FingerTracking\New\kinect-2-libras\Recorded\fingers.txt", aux);
         }
 
         /// <summary>
