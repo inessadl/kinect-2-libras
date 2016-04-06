@@ -367,7 +367,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
                         this.rightFingers.Add(centerRightHand);
                         int tam = this.rightFingers.Count - 1;
-                        Console.WriteLine(tam);
+                        //Console.WriteLine(tam);
                        
                         //normalizacao, setando todos os valores com origem no centro da mao
                         
