@@ -5,32 +5,21 @@
 import os;
 
 variation = 0.003
-percentTrain = 0.65
-for k in xrange(0,10):
-    for i in xrange(0,50):
-        os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv ovo "+str(percentTrain))
-    variation+=0.003
+for i in xrange(0,100):
+  os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv ovo "+str(0.65+variation))
+  variation+=0.003
 
 variation = 0.003
-percentTrain = 0.65
-for k in xrange(0,10):
-    for i in xrange(0,50):
-      os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv ovr "+str(percentTrain))
-    percentTrain+=variation
-    variation+=0.003
+for i in xrange(0,100):
+  os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv ovr "+str(0.65+variation))
+  variation+=0.003
 
 variation = 0.003
-percentTrain = 0.65
-for k in xrange(0,10):
-    for i in xrange(0,50):
-      os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv dtn "+str(percentTrain))
-    percentTrain+=variation
-    variation+=0.003
+for i in xrange(0,100):
+  os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv dtn "+str(0.70+variation))
+  variation+=0.003
 
 variation = 0.003
-percentTrain = 0.65
-for k in xrange(0,10):
-    for i in xrange(0,50):
-        os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv sgd "+str(percentTrain))
-    percentTrain+=variation
-    variation+=0.003
+for i in xrange(0,100):
+  os.system("sudo python /home/lmtortelli/Dropbox/Libras/trainingGestureAlt.py fingers.csv sgd "+str(0.70+variation))
+  variation+=0.003
