@@ -11,9 +11,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="90"/>
-            <RowDefinition Height="16*"/>
-            <RowDefinition Height="0*"/>
-            <RowDefinition Height="89*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
@@ -34,41 +32,29 @@
         </Grid>
 
         <!-- Kinect view -->
-        <Grid Grid.Row="1" Grid.RowSpan="3">
+        <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.4*" />
-                <ColumnDefinition Width="0.6*" />
+                <ColumnDefinition Width="0.3*" />
+                <ColumnDefinition Width="0.7*" />
             </Grid.ColumnDefinitions>
 
-            <StackPanel Grid.Column="0" Margin="-14,-6,19,6">
+            <StackPanel Grid.Column="0" Margin="30,0">
                 <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />
                 <!-- TODO: change click event -->
-                <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" Margin="20,20,-45,20" />
-                <TextBlock Name="predText" Style="{StaticResource SubheaderTextBlockStyle}" Text="PREDICAO" Margin="20" />
+                <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+
             </StackPanel>
 
 
             <Viewbox Grid.Column="1">
                 <Grid Width="512" Height="424">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition Width="15*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="137*"/>
-                        <RowDefinition Height="56*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="46*"/>
-                        <RowDefinition Height="5*"/>
-                    </Grid.RowDefinitions>
-                    <Image Name="camera" Grid.RowSpan="4" Margin="34.305,0,0,5" Grid.Column="1" />
-                    <Canvas Name="canvas" Margin="222.305,0,0,0" Grid.RowSpan="5" Grid.Column="1" />
+                    <Image Name="camera" />
+                    <Canvas Name="canvas" />
                 </Grid>
             </Viewbox>
         </Grid>
-
-        <ScrollViewer Grid.Row="1" Padding="80,20,20,20" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Margin="800,0,0,0">
-            
+        
+        <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
 
         </ScrollViewer>
     </Grid>

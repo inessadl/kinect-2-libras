@@ -198,7 +198,6 @@ namespace Kinect2Libras
         /// </summary>
         private void Record_Click(object sender, RoutedEventArgs e)
         {
-            predText.Text = "WOW";
             bool aborted = false;
             
             while (!aborted && !this.gestureRecorded)
@@ -255,15 +254,13 @@ namespace Kinect2Libras
             this.gestureRecorded = true;
 
             //Monta uma string para o Python, posteriormente será feita diretamente em C#
-
-            //string input = Console.ReadLine();
+            
             int answer = 2;
-            //Int32.TryParse(input, out answer);
 
-            //Console.WriteLine(this.rightHandFingers.Count);
+            Console.WriteLine(this.rightHandFingers.Count);
 
 
-            String aux = this.rightHandFingers[0].X + "-" + this.rightHandFingers[0].Y + "-" + this.rightHandFingers[1].X 
+            String aux = "[" + this.rightHandFingers[0].X + "-" + this.rightHandFingers[0].Y + "-" + this.rightHandFingers[1].X 
                 + "-" + this.rightHandFingers[1].Y + "-" + this.rightHandFingers[2].X + "-" + this.rightHandFingers[2].Y + "-" 
                 + this.rightHandFingers[3].X +"-" + this.rightHandFingers[3].Y + "-" + this.rightHandFingers[4].X + "-"
                 + this.rightHandFingers[4].Y +"-"+ this.rightHandFingers[5].X +"-"+ this.rightHandFingers[5].Y + "-" +
@@ -271,11 +268,10 @@ namespace Kinect2Libras
                 this.rightHandFingers[7].X + "-" + this.rightHandFingers[7].Y + "-" +
                 this.rightHandFingers[8].X + "-" + this.rightHandFingers[8].Y + "-" +
                 this.rightHandFingers[9].X + "-" + this.rightHandFingers[9].Y + "-" +
-                this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer+"\n";
+                this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
 
-            aux = aux.Replace(",", ".");
-            aux = aux.Replace("-", ",");
-            System.IO.File.AppendAllText(@"fingers.csv", aux);
+
+            System.IO.File.AppendAllText(@"C:\Users\Lucas Tortelli\Desktop\FingerTracking\New\kinect-2-libras\Recorded\fingers.txt", aux);
         }
 
         /// <summary>
@@ -311,7 +307,7 @@ namespace Kinect2Libras
                             Decimal resultX = Math.Abs((Decimal)fingers[cont].X - (Decimal)fingers[cont + 1].X);
                             //Console.WriteLine(resultX);
                             Decimal resultY = Math.Abs((Decimal)fingers[cont].Y - (Decimal)fingers[cont + 1].Y);
-                            //Console.WriteLine(fingers[cont].Y+"-"+fingers[cont + 1].Y+" = "+resultY);
+                            Console.WriteLine(fingers[cont].Y+"-"+fingers[cont + 1].Y+" = "+resultY);
                             
                            	//Discrepancia foi setado como valores acima de 200,ou seja, uma distancia de 200 do mapa de coordenadas
                             if (resultX > 200)
@@ -344,7 +340,7 @@ namespace Kinect2Libras
         // Metodo exclusivo da Thread time, delimita tempo de espera para captura de Gesto
         static void tempo()
         {
-            System.Threading.Thread.Sleep(1000); 
+            System.Threading.Thread.Sleep(5000); 
         }
 
     }
