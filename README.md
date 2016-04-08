@@ -27,22 +27,25 @@ Com a obtenção dos pontos, cada um segue a seguinte ordem de extração:
 
 # Classificação
 Para a realização da classificação dos gestos através dos pontos calculados acima, foram utilizados em um primeiro momento 4 implementações diferentes são elas
-- SVM One - vs - One
+- SVM One - vs - One (Kernel=linear)
 - SVM One - vs - Rest
 - Decision Tree
-- Stochastical Gradient Descent
- 
+- Stochastical Gradient Descent 
 
 #Proximas Implementações
-- Vetor direção
-- Utilização de profundidade para estimar os pontos da mão sob condições adversas
-- Ângulo de abertura da mão
+- Direção dos dedos (individualmente)
+- Utilização do estado da mão (aberta,fechada ou laço)
+- Operações de predição sobre o conjunto de dados
+- Fechamento da aplicação
+- Documentação geral de uso
+
 
 ## Contribuidores
 * Inessa Luerce (idluerce@inf.ufpel.edu.br)
 * Lucas Tortelli (lmtortelli@inf.ufpel.edu.br)
 * Marilton Sachotene (marilton@inf.ufpel.edu.br)
 * Simone Rutz (sdrutz@inf.ufpel.edu.br)
+
 ## Referências
 Desenvolvido com [Vitruvius](https://github.com/LightBuzz/Vitruvius)
 Biblioteca de Classificação [SCIKIT](http://scikit-learn.org/)
