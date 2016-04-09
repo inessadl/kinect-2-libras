@@ -11,7 +11,7 @@ Para o reconhecimento de gestos estáticos em LIBRAS (Língua Brasileira dos Sin
 Inicialmente utilizamos de uma informação fornecida pelo próprio Kinect, o centro da mão:
 ![Centro da mão](/images/centerPoint.png?raw=true "Ponto Central da Mão")
 
-Para obter um dos pontos fornecidos pelo Leap Motion que consiste no encontro entre as falanges médias e as falanges proximais, é necessário utilizar-se do ponto central da mão. Obtendo esta informação, é possível calcular o Ponto Médio entre a ponta de cada dedo com o centro da mão: 
+Para obter um dos pontos fornecidos pelo Leap Motion que consiste no encontro entre as falanges médias e as falanges proximais, é necessário utilizar-se do ponto central da mão. Obtendo esta informação, é possível calcular o Ponto Médio entre a ponta de cada dedo com o centro da mão:
 
 ![Localização das falanges da mão](/images/exam.png?raw=true "Localização das falanges da mão")
 
@@ -30,7 +30,7 @@ Para a realização da classificação dos gestos através dos pontos calculados
 - SVM One - vs - One (Kernel=linear)
 - SVM One - vs - Rest
 - Decision Tree
-- Stochastical Gradient Descent 
+- Stochastical Gradient Descent
 
 #Proximas Implementações
 - Direção dos dedos (individualmente)
@@ -49,3 +49,7 @@ Para a realização da classificação dos gestos através dos pontos calculados
 ## Referências
 Desenvolvido com [Vitruvius](https://github.com/LightBuzz/Vitruvius)
 Biblioteca de Classificação [SCIKIT](http://scikit-learn.org/)
+
+## License
+
+Licensed under the [Apache License, Version 2.0](https://github.com/inessadl/kinect-2-libras/blob/master/LICENSE)
