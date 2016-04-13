@@ -20,7 +20,7 @@
                 <ColumnDefinition Width="90"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Click="Record_Click"
+            <Button x:Name="backButton" Click="Back_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
@@ -42,7 +42,14 @@
                 <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />
                 <!-- TODO: change click event -->
                 <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gesto" Margin="20" />
+                <TextBlock Name="gesture" Style="{DynamicResource HeaderTextBlockStyle}" Text="2" Margin="20" FontSize="350" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <TextBlock.Effect>
+                        <DropShadowEffect/>
+                    </TextBlock.Effect>
 
+                </TextBlock>
+                <Button Content="Treinar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="TrainingModel" />
             </StackPanel>
 
 
@@ -53,9 +60,5 @@
                 </Grid>
             </Viewbox>
         </Grid>
-        
-        <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
-
-        </ScrollViewer>
     </Grid>
 </Page>

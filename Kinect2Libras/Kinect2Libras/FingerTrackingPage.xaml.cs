@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using LightBuzz.Vitruvius.FingerTracking;
 using Microsoft.Kinect;
 using LightBuzz.Vitruvius;
 using System.Threading;
+using LibSVMsharp.Helpers;
+using LibSVMsharp;
+using LibSVMsharp.Extensions;
+//using MathNet.Numerics.LinearAlgebra;
 
 namespace Kinect2Libras
 {
@@ -32,14 +30,18 @@ namespace Kinect2Libras
         private IList<Body> _bodies;
         private Body _body;
         private bool gestureRecorded=false;
+        private SVMModel gestureModel;
+
 
         // Create a new reference of a HandsController.
         private HandsController _handsController = null;
 
         public FingerTrackingPage()
         {
+            
             InitializeComponent();
-
+            //gestureModel = SVM.LoadModel(@"Model\gestureModel.txt");
+            
             _sensor = KinectSensor.GetDefault();
 
             if (_sensor != null)
@@ -60,6 +62,49 @@ namespace Kinect2Libras
 
                 _sensor.Open();
             }
+        }
+
+        private void TrainingModel(object sender, RoutedEventArgs e) {
+            SVMProblem trainingSet = SVMProblemHelper.Load(@"Dataset\\gestureDataSet.txt");
+            SVMProblem testSet = SVMProblemHelper.Load(@"Dataset\\gestureDataSet.txt");
+
+            // Normalize the datasets if you want: L2 Norm => x / ||x||
+            trainingSet = trainingSet.Normalize(SVMNormType.L2);
+            testSet = testSet.Normalize(SVMNormType.L2);
+
+            // Select the parameter set
+            SVMParameter parameter = new SVMParameter();
+            parameter.Type = SVMType.C_SVC;
+            parameter.Kernel = SVMKernelType.RBF;
+            parameter.C = 1;
+            parameter.Gamma = 1;
+
+            // Do cross validation to check this parameter set is correct for the dataset or not
+            double[] crossValidationResults; // output labels
+            int nFold = 5;
+            trainingSet.CrossValidation(parameter, nFold, out crossValidationResults);
+
+            // Evaluate the cross validation result
+            // If it is not good enough, select the parameter set again
+            double crossValidationAccuracy = trainingSet.EvaluateClassificationProblem(crossValidationResults);
+
+            // Train the model, If your parameter set gives good result on cross validation
+            SVMModel model = trainingSet.Train(parameter);
+
+            // Save the model
+            SVM.SaveModel(model, @"Model\gestureModel.txt");
+
+            // Predict the instances in the test set
+            double[] testResults = testSet.Predict(model);
+
+            // Evaluate the test results
+            int[,] confusionMatrix;
+            double testAccuracy = testSet.EvaluateClassificationProblem(testResults, model.Labels, out confusionMatrix);
+
+            // Print the resutls
+            Console.WriteLine("\n\nCross validation accuracy: " + crossValidationAccuracy);
+            Console.WriteLine("\nTest accuracy: " + testAccuracy);
+
         }
 
         private void DepthReader_FrameArrived(object sender, DepthFrameArrivedEventArgs e)
