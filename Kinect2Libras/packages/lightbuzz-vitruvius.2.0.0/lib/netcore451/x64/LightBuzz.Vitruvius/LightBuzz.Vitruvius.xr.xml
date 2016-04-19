@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Fill" />
+    <RootPropertyPathName Name="Stroke" />
+    <RootPropertyPathName Name="StrokeThickness" />
+    <RootPropertyPathName Name="SweepDirection" />
+    <RootPropertyPathName Name="JointsVisibility" />
+    <RootPropertyPathName Name="Background" />
+    <RootPropertyPathName Name="BorderBrush" />
+    <RootPropertyPathName Name="BorderThickness" />
+    <RootPropertyPathName Name="Image" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Data" />
+      <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Media.PathGeometry">
+      <RootProperty Name="Figures" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PathFigureCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.PathFigure">
+      <RootProperty Name="Segments" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PathSegmentCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.LineSegment" />
+    <RootType FullName="Windows.UI.Xaml.Media.ArcSegment">
+      <RootProperty Name="RotationAngle" />
+      <RootProperty Name="IsLargeArc" />
+      <RootProperty Name="SweepDirection" />
+    </RootType>
+    <RootType FullName="LightBuzz.Vitruvius.Controls.KinectAngle" />
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Tag" />
+      <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Shape">
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Stroke" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="LightBuzz.Vitruvius.Controls.KinectJointSelector" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="LightBuzz.Vitruvius.Controls.KinectViewer" />
+  </Roots.RootTypes>
+</Roots>

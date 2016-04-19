@@ -157,6 +157,45 @@ class SVMTraining(object):
 		erro = v2/totGesture
 		print(tip+","+str(v1)+","+str(v2)+","+str(pc)+","+str(erro))
 
+	def transformData(self,pathFile):
+		readList = []
+		name = "..\\Kinect2Libras\\Kinect2Libras\\Dataset\\gestureDataSet.txt"
+		gestureFile = []
+		lastNum = len(readList)-1
+		print ("...load data set "+pathFile)
+		with open(pathFile, 'rb') as f:
+			reader = csv.reader(f)
+			readList = list(reader)
+
+		#Realiza a mistura do data set, para nunca ter o mesmo esquema de gestos
+		print ("Total of Gesture: "+str(len(readList)))
+		print ("... mixed dataSet")
+		random.shuffle(readList)
+
+		#Normaliza todos com o centro de cada mao
+		try:
+			fileDataset = open(name,'a')   # Trying to create a new file or open one,
+
+			print "wo"
+			for i in xrange(int(len(readList))):
+				w = 0
+				currentGesture = ""
+				currentGesture+= ""+str(readList[i][lastNum])+" "
+				for k in xrange(len(readList[0])-1):
+					if((k!=10)and(k!=11)):
+						if(k%2==0):
+							currentGesture+=str(w+1)+":"+str(round((np.float64(readList[i][k])-np.float64(readList[i][10]))**2,2))+" "
+							w+=1
+						else:
+							currentGesture+=str(w+1)+":"+str(round((np.float64(readList[i][k])-np.float64(readList[i][11]))**2,2))+" "
+							w+=1
+				fileDataset.write(currentGesture+"\n")
+		except:
+			print('Something went wrong! Can\'t tell what?')
+			sys.exit(0) # quit Python
+
+		fileDataset.close()
+
 if __name__ == '__main__':
 	x = SVMTraining(np.float64(sys.argv[3]))
 	x.readingData(sys.argv[1])
@@ -170,3 +209,5 @@ if __name__ == '__main__':
 		x.sGradientDescent()
 	elif(sys.argv[2] == "sim"):
 		x.simulationBestModel()
+	elif(sys.argv[2] == "data"):
+		x.transformData(sys.argv[1]);

@@ -12,7 +12,10 @@ using LightBuzz.Vitruvius;
 using System.Threading;
 using LibSVMsharp.Helpers;
 using LibSVMsharp;
+using LibSVMsharp.Core;
 using LibSVMsharp.Extensions;
+using System.Text;
+using System.Threading.Tasks;
 //using MathNet.Numerics.LinearAlgebra;
 
 namespace Kinect2Libras
@@ -30,7 +33,7 @@ namespace Kinect2Libras
         private IList<Body> _bodies;
         private Body _body;
         private bool gestureRecorded=false;
-        private SVMModel gestureModel;
+        //private SVMModel gestureModel;
 
 
         // Create a new reference of a HandsController.
@@ -65,25 +68,30 @@ namespace Kinect2Libras
         }
 
         private void TrainingModel(object sender, RoutedEventArgs e) {
-            SVMProblem trainingSet = SVMProblemHelper.Load(@"Dataset\\gestureDataSet.txt");
-            SVMProblem testSet = SVMProblemHelper.Load(@"Dataset\\gestureDataSet.txt");
+            // Load the datasets: In this example I use the same datasets for training and testing which is not suggested
+            SVMProblem trainingSet = SVMProblemHelper.Load(@"..\..\database\gestureDataSet.txt");
+            SVMProblem testSet = SVMProblemHelper.Load(@"..\..\database\testSet.txt");
+            Console.WriteLine(trainingSet.Length);
 
+
+            Console.WriteLine("WOOOOOOOOOOO");
             // Normalize the datasets if you want: L2 Norm => x / ||x||
-            trainingSet = trainingSet.Normalize(SVMNormType.L2);
-            testSet = testSet.Normalize(SVMNormType.L2);
+            //trainingSet = trainingSet.Normalize(SVMNormType.L2);
+            //testSet = testSet.Normalize(SVMNormType.L2);
 
             // Select the parameter set
+            double inGamma = 1 / trainingSet.Length;
             SVMParameter parameter = new SVMParameter();
             parameter.Type = SVMType.C_SVC;
-            parameter.Kernel = SVMKernelType.RBF;
-            parameter.C = 1;
-            parameter.Gamma = 1;
+            parameter.Kernel = SVMKernelType.LINEAR;
+            parameter.C = 5;
+            parameter.Gamma = inGamma;
 
             // Do cross validation to check this parameter set is correct for the dataset or not
             double[] crossValidationResults; // output labels
-            int nFold = 5;
+            int nFold = 10;
             trainingSet.CrossValidation(parameter, nFold, out crossValidationResults);
-
+            
             // Evaluate the cross validation result
             // If it is not good enough, select the parameter set again
             double crossValidationAccuracy = trainingSet.EvaluateClassificationProblem(crossValidationResults);
@@ -92,7 +100,7 @@ namespace Kinect2Libras
             SVMModel model = trainingSet.Train(parameter);
 
             // Save the model
-            SVM.SaveModel(model, @"Model\gestureModel.txt");
+            SVM.SaveModel(model, @"..\..\models\gesture.txt");
 
             // Predict the instances in the test set
             double[] testResults = testSet.Predict(model);
@@ -104,6 +112,23 @@ namespace Kinect2Libras
             // Print the resutls
             Console.WriteLine("\n\nCross validation accuracy: " + crossValidationAccuracy);
             Console.WriteLine("\nTest accuracy: " + testAccuracy);
+            Console.WriteLine("\nConfusion matrix:\n");
+
+            // Print formatted confusion matrix
+            Console.Write(String.Format("{0,6}", ""));
+            for (int i = 0; i < model.Labels.Length; i++)
+                Console.Write(String.Format("{0,5}", "(" + model.Labels[i] + ")"));
+            Console.WriteLine();
+            for (int i = 0; i < confusionMatrix.GetLength(0); i++)
+            {
+                Console.Write(String.Format("{0,5}", "(" + model.Labels[i] + ")"));
+                for (int j = 0; j < confusionMatrix.GetLength(1); j++)
+                    Console.Write(String.Format("{0,5}", confusionMatrix[i, j]));
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("\n\nPress any key to quit...");
+            Console.ReadLine();
 
         }
 
