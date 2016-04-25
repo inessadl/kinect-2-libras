@@ -133,6 +133,10 @@ namespace LightBuzz.Vitruvius.FingerTracking
             //Hand handLeft = null;
             Hand handRight = null;
 
+            //Captura o estado da mao direita (Aberta, Lasso, Fechada)
+            HandState sRightHand = body.HandRightState;
+            //////////////////////////////////////////////////////////
+
             //Joint jointHandLeft = body.Joints[JointType.HandLeft];
             Joint jointHandRight = body.Joints[JointType.HandRight];
             //Joint jointWristLeft = body.Joints[JointType.WristLeft];
@@ -274,7 +278,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
 
                 if (searchForRightHand)
                 {
-                    handRight = GetHand(body.TrackingId, body.HandRightState, contourRight, angleRight, wristRightX, wristRightY, true, handRightX, handRightY);
+                    handRight = GetHand(body.TrackingId, body.HandRightState, contourRight, angleRight, wristRightX, wristRightY, true, handRightX, handRightY,sRightHand);
                 }
             }
 
@@ -303,7 +307,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
             return Math.Max(distanceLeftHandTip, distanceLeftHandThumb);
         }
 
-        private Hand GetHand(ulong trackingID, HandState state, List<DepthPointEx> contour, double angle, float wristX, float wristY, bool hand, float handRightX, float handRightY)
+        private Hand GetHand(ulong trackingID, HandState state, List<DepthPointEx> contour, double angle, float wristX, float wristY, bool hand, float handRightX, float handRightY, HandState stateRightHand)
         {
             IList<DepthPointEx> convexHull = _grahamScan.ConvexHull(contour);
             IList<DepthPointEx> filtered = _lineThinner.Filter(convexHull);
@@ -334,22 +338,7 @@ namespace LightBuzz.Vitruvius.FingerTracking
                 fingers = filtered.Where(p => p.X < wristX).Take(11).ToList();
 
             }
-           // List<string> listForPython = null;
-            //try
-           // {
-
-
-  //              PythonInstance receiveHand = new PythonInstance(@"
-//class PyClass:
- //   def __init__(self):
- //       pass
- //   def receiveHand(self,list):
-  //      print list[0]");
-
-
-          //      receiveHand.CallMethod("receiveHand", listForPython);
-          //  }
-          //  catch (Exception e) { }
+          
 
             try
             {
@@ -368,9 +357,8 @@ namespace LightBuzz.Vitruvius.FingerTracking
                         this.rightFingers.Add(centerRightHand);
                         int tam = this.rightFingers.Count - 1;
                         Console.WriteLine(tam);
-                       
-                        //normalizacao, setando todos os valores com origem no centro da mao
-                        
+
+
                         //Calculon das falanges, simulacao leap motion
                         for (int i = 0; i < tam; i++)
                         {

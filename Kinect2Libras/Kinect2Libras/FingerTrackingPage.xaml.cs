@@ -45,6 +45,7 @@ namespace Kinect2Libras
             
             InitializeComponent();
             this.gestureModel = SVM.LoadModel(@"..\..\models\gesture.txt");
+            //invoca a thread que tomara conta do method rodando em background
             this.backgroundRecognition = new Thread(this.backgroundGestureRecognition);
             
 
@@ -117,8 +118,6 @@ namespace Kinect2Libras
             Console.WriteLine("\nTest accuracy: " + testAccuracy);
             Console.WriteLine("\nConfusion matrix:\n");
 
-            string a = "1:-5.17 2:-40.17 3:23.83 4:-28.17 5:20.83 6:18.83 7:-39.17 8:10.83 9:-24.17 10:-30.17 11:-2.58 12:-20.09 13:15.34 14:-14.09 15:13.83 16:9.41 17:-19.58 18:13.5 19:-15.2 20:-15.09";
-
             // Print formatted confusion matrix
             Console.Write(String.Format("{0,6}", ""));
             for (int i = 0; i < model.Labels.Length; i++)
@@ -134,18 +133,20 @@ namespace Kinect2Libras
 
         }
 
+        //Metodo responsavel pela verificacao dos gestos realizados. Todos os gestos são captuados e verificados por threads separados do sistema
         private void backgroundGestureRecognition() {
 
             while (true) {
+
+                //responsavel por capturar o gesto, alem de testa-lo quanto sua integridade (se capturou os 5 dedos corretamente, se pelo menos 1 dos 5 pontos está em desacordo com o normal)
                 //while (this.rightHandFingers == null)
-                //{
-                //    Console.WriteLine("LOLO");
+                //{    
                 //    this.receiveHand();
                 //}
 
                 SVMNode[] fingers = new SVMNode[20];
 
-                //8 1:0.6 2:-23.71 3:17.6 4:-14.71 5:17.6 6:0.29 7:-17.4 8:31.29 9:-16.4 10:-12.71 11:0.3 12:-11.86 13:12.1 14:-7.36 15:12.1 16:0.14 17:-8.7 18:24.98 19:-11.26 20:-6.36 
+                
 
                 fingers[0] = new SVMNode(1, 0.6);
                 fingers[1] = new SVMNode(2, -23.71);
@@ -172,9 +173,9 @@ namespace Kinect2Libras
                 //for (int i = 0; i < 10; i++) {
                 //    if (i != 5)
                 //    {
-                //        fingers[k] = new SVMNode(k, this.rightHandFingers[i].X - this.rightHandFingers[5].X);
+                //        fingers[k] = new SVMNode(k+1, this.rightHandFingers[i].X - this.rightHandFingers[5].X);
                 //        k++;
-                //        fingers[k] = new SVMNode(k, this.rightHandFingers[i].Y - this.rightHandFingers[5].Y);
+                //        fingers[k] = new SVMNode(k+1, this.rightHandFingers[i].Y - this.rightHandFingers[5].Y);
                 //        k++;
                 //    }
 
@@ -183,7 +184,10 @@ namespace Kinect2Libras
                 Console.WriteLine(gestureModel.Predict(fingers));
                 //gestureForm.Text = Convert.ToString(gestureModel.Predict(fingers));
 
+                //Serve para dispachar um thread adicional somente para alteração do elementos da interface
                 Dispatcher.Invoke(() => { gestureForm.Text = Convert.ToString(gestureModel.Predict(fingers)); }); 
+
+                //serve para inibir pegar ruídos, ou ficar 'randomizando' suas decisões por não capturar o gesto corretamente
                 Thread.Sleep(2000);
 
             }
