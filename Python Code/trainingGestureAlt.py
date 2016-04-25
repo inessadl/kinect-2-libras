@@ -159,7 +159,7 @@ class SVMTraining(object):
 
 	def transformData(self,pathFile):
 		readList = []
-		name = "..\\Kinect2Libras\\Kinect2Libras\\Dataset\\gestureDataSet.txt"
+		name = "gestureDataSet.txt"
 		gestureFile = []
 		lastNum = len(readList)-1
 		print ("...load data set "+pathFile)
@@ -174,9 +174,7 @@ class SVMTraining(object):
 
 		#Normaliza todos com o centro de cada mao
 		try:
-			fileDataset = open(name,'a')   # Trying to create a new file or open one,
-
-			print "wo"
+			fileDataset = open(name,'w')   # Trying to create a new file or open one,
 			for i in xrange(int(len(readList))):
 				w = 0
 				currentGesture = ""
@@ -184,10 +182,11 @@ class SVMTraining(object):
 				for k in xrange(len(readList[0])-1):
 					if((k!=10)and(k!=11)):
 						if(k%2==0):
-							currentGesture+=str(w+1)+":"+str(round((np.float64(readList[i][k])-np.float64(readList[i][10]))**2,2))+" "
+							currentGesture+=str(w+1)+":"+str(round(np.float64(readList[i][k])-np.float64(readList[i][10]),2))+" "
+							print currentGesture
 							w+=1
 						else:
-							currentGesture+=str(w+1)+":"+str(round((np.float64(readList[i][k])-np.float64(readList[i][11]))**2,2))+" "
+							currentGesture+=str(w+1)+":"+str(round(np.float64(readList[i][k])-np.float64(readList[i][11]),2))+" "
 							w+=1
 				fileDataset.write(currentGesture+"\n")
 		except:

@@ -4,13 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinect2Libras", "Kinect2Libras\Kinect2Libras.csproj", "{D9E3A7B7-AC23-431E-B06F-87404854B628}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2} = {AC04337C-E542-4BE9-8DBD-5B44535299E2}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightBuzz.Vitruvius.FingerTracking", "LightBuzz.Vitruvius.FingerTracking\LightBuzz.Vitruvius.FingerTracking.csproj", "{C7312BB5-22EB-4B9C-9552-C97F0ECD0663}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSVMsharp.Intern", "LibSVMsharp\LibSVMsharp.Intern.csproj", "{AC04337C-E542-4BE9-8DBD-5B44535299E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,18 +41,6 @@ Global
 		{C7312BB5-22EB-4B9C-9552-C97F0ECD0663}.Release|x64.Build.0 = Release|Any CPU
 		{C7312BB5-22EB-4B9C-9552-C97F0ECD0663}.Release|x86.ActiveCfg = Release|Any CPU
 		{C7312BB5-22EB-4B9C-9552-C97F0ECD0663}.Release|x86.Build.0 = Release|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|x64.Build.0 = Debug|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|x86.Build.0 = Debug|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|x64.ActiveCfg = Release|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|x64.Build.0 = Release|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|x86.ActiveCfg = Release|Any CPU
-		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

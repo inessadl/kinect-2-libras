@@ -42,8 +42,9 @@
                 <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />
                 <!-- TODO: change click event -->
                 <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+                <TextBox Name="nameGesture"  HorizontalAlignment="Stretch" FontSize="35" />
                 <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gesto" Margin="20" />
-                <TextBlock Name="gesture" Style="{DynamicResource HeaderTextBlockStyle}" Text="2" Margin="20" FontSize="350" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <TextBlock Name="gestureForm" Style="{DynamicResource HeaderTextBlockStyle}" Text="2" Margin="20" FontSize="350" HorizontalAlignment="Center" VerticalAlignment="Center" >
                     <TextBlock.Effect>
                         <DropShadowEffect/>
                     </TextBlock.Effect>

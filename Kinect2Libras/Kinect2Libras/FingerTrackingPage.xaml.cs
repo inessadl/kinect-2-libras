@@ -25,6 +25,7 @@ namespace Kinect2Libras
     /// </summary>
     public partial class FingerTrackingPage : Page
     {
+        private Thread backgroundRecognition;
         private List<DepthPointEx> rightHandFingers = null;
         private KinectSensor _sensor = null;
         private InfraredFrameReader _infraredReader = null;
@@ -33,7 +34,7 @@ namespace Kinect2Libras
         private IList<Body> _bodies;
         private Body _body;
         private bool gestureRecorded=false;
-        //private SVMModel gestureModel;
+        private SVMModel gestureModel;
 
 
         // Create a new reference of a HandsController.
@@ -43,8 +44,10 @@ namespace Kinect2Libras
         {
             
             InitializeComponent();
-            //gestureModel = SVM.LoadModel(@"Model\gestureModel.txt");
+            this.gestureModel = SVM.LoadModel(@"..\..\models\gesture.txt");
+            this.backgroundRecognition = new Thread(this.backgroundGestureRecognition);
             
+
             _sensor = KinectSensor.GetDefault();
 
             if (_sensor != null)
@@ -65,16 +68,16 @@ namespace Kinect2Libras
 
                 _sensor.Open();
             }
+
+            this.backgroundRecognition.Start();
         }
 
         private void TrainingModel(object sender, RoutedEventArgs e) {
             // Load the datasets: In this example I use the same datasets for training and testing which is not suggested
             SVMProblem trainingSet = SVMProblemHelper.Load(@"..\..\database\gestureDataSet.txt");
-            SVMProblem testSet = SVMProblemHelper.Load(@"..\..\database\testSet.txt");
+            SVMProblem testSet = SVMProblemHelper.Load(@"..\..\database\test.txt");
             Console.WriteLine(trainingSet.Length);
 
-
-            Console.WriteLine("WOOOOOOOOOOO");
             // Normalize the datasets if you want: L2 Norm => x / ||x||
             //trainingSet = trainingSet.Normalize(SVMNormType.L2);
             //testSet = testSet.Normalize(SVMNormType.L2);
@@ -114,6 +117,8 @@ namespace Kinect2Libras
             Console.WriteLine("\nTest accuracy: " + testAccuracy);
             Console.WriteLine("\nConfusion matrix:\n");
 
+            string a = "1:-5.17 2:-40.17 3:23.83 4:-28.17 5:20.83 6:18.83 7:-39.17 8:10.83 9:-24.17 10:-30.17 11:-2.58 12:-20.09 13:15.34 14:-14.09 15:13.83 16:9.41 17:-19.58 18:13.5 19:-15.2 20:-15.09";
+
             // Print formatted confusion matrix
             Console.Write(String.Format("{0,6}", ""));
             for (int i = 0; i < model.Labels.Length; i++)
@@ -127,8 +132,62 @@ namespace Kinect2Libras
                 Console.WriteLine();
             }
 
-            Console.WriteLine("\n\nPress any key to quit...");
-            Console.ReadLine();
+        }
+
+        private void backgroundGestureRecognition() {
+
+            while (true) {
+                //while (this.rightHandFingers == null)
+                //{
+                //    Console.WriteLine("LOLO");
+                //    this.receiveHand();
+                //}
+
+                SVMNode[] fingers = new SVMNode[20];
+
+                //8 1:0.6 2:-23.71 3:17.6 4:-14.71 5:17.6 6:0.29 7:-17.4 8:31.29 9:-16.4 10:-12.71 11:0.3 12:-11.86 13:12.1 14:-7.36 15:12.1 16:0.14 17:-8.7 18:24.98 19:-11.26 20:-6.36 
+
+                fingers[0] = new SVMNode(1, 0.6);
+                fingers[1] = new SVMNode(2, -23.71);
+                fingers[2] = new SVMNode(3, 17.6);
+                fingers[3] = new SVMNode(4, -14.71);
+                fingers[4] = new SVMNode(5, 17.6);
+                fingers[5] = new SVMNode(6, 0.29);
+                fingers[6] = new SVMNode(7, -17.4);
+                fingers[7] = new SVMNode(8, 31.29);
+                fingers[8] = new SVMNode(9, -16.4);
+                fingers[9] = new SVMNode(10, -12.71);
+                fingers[10] = new SVMNode(11, 0.3);
+                fingers[11] = new SVMNode(12, -11.86);
+                fingers[12] = new SVMNode(13, 12.1);
+                fingers[13] = new SVMNode(14, -7.36);
+                fingers[14] = new SVMNode(15, 12.1);
+                fingers[15] = new SVMNode(16, 0.14);
+                fingers[16] = new SVMNode(17, -8.7);
+                fingers[17] = new SVMNode(18, 24.98);
+                fingers[18] = new SVMNode(19, -11.26);
+                fingers[19] = new SVMNode(20, -6.36);
+
+                //int k = 0;
+                //for (int i = 0; i < 10; i++) {
+                //    if (i != 5)
+                //    {
+                //        fingers[k] = new SVMNode(k, this.rightHandFingers[i].X - this.rightHandFingers[5].X);
+                //        k++;
+                //        fingers[k] = new SVMNode(k, this.rightHandFingers[i].Y - this.rightHandFingers[5].Y);
+                //        k++;
+                //    }
+
+                //}
+                this.rightHandFingers = null;
+                Console.WriteLine(gestureModel.Predict(fingers));
+                //gestureForm.Text = Convert.ToString(gestureModel.Predict(fingers));
+
+                Dispatcher.Invoke(() => { gestureForm.Text = Convert.ToString(gestureModel.Predict(fingers)); }); 
+                Thread.Sleep(2000);
+
+            }
+            
 
         }
 
@@ -325,22 +384,28 @@ namespace Kinect2Libras
 
             //Monta uma string para o Python, posteriormente será feita diretamente em C#
             
-            int answer = 2;
+            int answer = Convert.ToInt32(this.nameGesture);
 
-            Console.WriteLine(this.rightHandFingers.Count);
+            String gesture = this.nameGesture + " ";
+            for (int i = 0; i < 10; i++) {
+                if (i != 5) {
+                    int k = i + 1;
+                    double aux1 = this.rightHandFingers[i].X - this.rightHandFingers[5].X;
+                    double aux2 = this.rightHandFingers[i].Y - this.rightHandFingers[5].Y;
+                    gesture+= k + ":" + aux1 + " " + (k + 1) + ":" + aux2 + " ";
+                }
+            }
+            //String aux = "[" + this.rightHandFingers[0].X + "-" + this.rightHandFingers[0].Y + "-" + this.rightHandFingers[1].X 
+            //    + "-" + this.rightHandFingers[1].Y + "-" + this.rightHandFingers[2].X + "-" + this.rightHandFingers[2].Y + "-" 
+            //    + this.rightHandFingers[3].X +"-" + this.rightHandFingers[3].Y + "-" + this.rightHandFingers[4].X + "-"
+            //    + this.rightHandFingers[4].Y +"-"+ this.rightHandFingers[5].X +"-"+ this.rightHandFingers[5].Y + "-" +
+            //    this.rightHandFingers[6].X + "-" + this.rightHandFingers[6].Y + "-" +
+            //    this.rightHandFingers[7].X + "-" + this.rightHandFingers[7].Y + "-" +
+            //    this.rightHandFingers[8].X + "-" + this.rightHandFingers[8].Y + "-" +
+            //    this.rightHandFingers[9].X + "-" + this.rightHandFingers[9].Y + "-" +
+            //    this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
 
-
-            String aux = "[" + this.rightHandFingers[0].X + "-" + this.rightHandFingers[0].Y + "-" + this.rightHandFingers[1].X 
-                + "-" + this.rightHandFingers[1].Y + "-" + this.rightHandFingers[2].X + "-" + this.rightHandFingers[2].Y + "-" 
-                + this.rightHandFingers[3].X +"-" + this.rightHandFingers[3].Y + "-" + this.rightHandFingers[4].X + "-"
-                + this.rightHandFingers[4].Y +"-"+ this.rightHandFingers[5].X +"-"+ this.rightHandFingers[5].Y + "-" +
-                this.rightHandFingers[6].X + "-" + this.rightHandFingers[6].Y + "-" +
-                this.rightHandFingers[7].X + "-" + this.rightHandFingers[7].Y + "-" +
-                this.rightHandFingers[8].X + "-" + this.rightHandFingers[8].Y + "-" +
-                this.rightHandFingers[9].X + "-" + this.rightHandFingers[9].Y + "-" +
-                this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
-
-            System.IO.File.AppendAllText(@"fingers.csv", aux);
+            System.IO.File.AppendAllText(@"..\..\database\gestureDataSet.txt", gesture);
             //System.IO.File.AppendAllText(@"C:\Users\Lucas Tortelli\Desktop\FingerTracking\New\kinect-2-libras\Recorded\fingers.txt", aux);
         }
 
