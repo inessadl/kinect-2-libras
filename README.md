@@ -48,12 +48,13 @@ Com a obtenção dos pontos, cada um segue a seguinte ordem de extração:
 Para a realização da classificação dos gestos através dos pontos calculados acima,
 foram utilizados em um primeiro momento 4 implementações diferentes, são elas:
 
-- SVM One-vs.-one (Kernel=linear)- [LightBuzz/Kinect-Finger-Tracking](https://github.com/LightBuzz/Kinect-Finger-Tracking)
+- SVM One-vs.-one (Kernel=linear)
 - SVM One-vs.-rest
 - Decision Tree
 - Stochastic Gradient Descent
 
 ## Contribuidores
+
 * Inessa Luerce (idluerce@inf.ufpel.edu.br)
 * Lucas Tortelli (lmtortelli@inf.ufpel.edu.br)
 * Marilton de Aguiar (marilton@inf.ufpel.edu.br)
