@@ -34,7 +34,7 @@ namespace Kinect2Libras
         private IList<Body> _bodies;
         private Body _body;
         private bool gestureRecorded=false;
-        private SVMModel gestureModel;
+        //private SVMModel gestureModel;
 
 
         // Create a new reference of a HandsController.
@@ -44,7 +44,7 @@ namespace Kinect2Libras
         {
             
             InitializeComponent();
-            this.gestureModel = SVM.LoadModel(@"..\..\models\gesture.txt");
+            //this.gestureModel = SVM.LoadModel(@"..\..\models\gesture.txt");
             //invoca a thread que tomara conta do method rodando em background
             this.backgroundRecognition = new Thread(this.backgroundGestureRecognition);
             
@@ -73,6 +73,7 @@ namespace Kinect2Libras
             this.backgroundRecognition.Start();
         }
 
+        /*
         private void TrainingModel(object sender, RoutedEventArgs e) {
             // Load the datasets: In this example I use the same datasets for training and testing which is not suggested
             SVMProblem trainingSet = SVMProblemHelper.Load(@"..\..\database\gestureDataSet.txt");
@@ -131,7 +132,7 @@ namespace Kinect2Libras
                 Console.WriteLine();
             }
 
-        }
+        }*/
 
         //Metodo responsavel pela verificacao dos gestos realizados. Todos os gestos são captuados e verificados por threads separados do sistema
         private void backgroundGestureRecognition() {
