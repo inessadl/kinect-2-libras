@@ -1,5 +1,7 @@
 # kinect-2-libras
 
+**version 1.1**
+
 This application gets the geographic coordinates from the five fingers of the right
 hand and saves these points on a .txt file. Later on, there is a parser to format
 the file and allow it to be used for training and classification. 
