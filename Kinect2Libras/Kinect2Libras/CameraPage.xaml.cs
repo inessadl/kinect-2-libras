@@ -185,8 +185,9 @@ namespace Kinect2Libras
         // captura a tela e salva em um arquivo .jpg
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+            string kinect = "kinect-v2-screenshot_";
             string currentTimeDate = string.Format("{0:yyyy-MM-dd_hh-mm-ss-fff}", DateTime.Now);
-            string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), (currentTimeDate + ".jpg"));
+            string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), (kinect + currentTimeDate + ".jpg"));
 
 
             (viewer.Image as WriteableBitmap).Save(path);

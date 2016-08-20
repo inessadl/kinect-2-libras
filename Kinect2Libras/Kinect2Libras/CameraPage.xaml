@@ -38,12 +38,12 @@
                 <ColumnDefinition Width="0.7*" />
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" Margin="30,0">
-                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Visualização" Margin="20" />
+                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Visualization" Margin="20" />
                 <Button Content="Color" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Color_Click" />
                 <Button Content="Depth" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Depth_Click" />
                 <Button Content="Infrared" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Infrared_Click" />
                 
-                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Captura" Margin="20" />
+                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Capture" Margin="20" />
                 <Button Content="Screenshot" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Save_Click" />
                 <!--<TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Skeleton" Margin="0,20" />
                 <ToggleButton Content="Toggle Skeleton" HorizontalAlignment="Stretch" Checked="Skeleton_Checked" Unchecked="Skeleton_Unchecked" />-->

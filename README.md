@@ -28,7 +28,7 @@ falanges médias e as falanges proximais, é necessário utilizar-se do ponto ce
 Obtendo esta informação, é possível calcular o Ponto Médio entre a ponta de cada dedo
 com o centro da mão:
 
-![Localização das falanges da mão](https://raw.githubusercontent.com/inessadl/kinect-2-libras/master/images/02-exam.png)
+![Localização das falanges da mão](https://github.com/inessadl/kinect-2-libras/blob/master/images/02-exam.png)
 
 ![Área de cálculo das falanges](https://github.com/inessadl/kinect-2-libras/blob/master/images/03-calculate.png  )
 
