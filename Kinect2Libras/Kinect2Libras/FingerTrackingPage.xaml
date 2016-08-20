@@ -16,48 +16,54 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.Column="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="90"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Click="Record_Click"
-                    Style="{StaticResource NavigationBackButtonNormalStyle}"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    AutomationProperties.Name="Back"
-                    AutomationProperties.AutomationId="BackButton"
-                    AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Text="Mapeamento da mão" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
-        </Grid>
-
         <!-- Kinect view -->
-        <Grid Grid.Row="1">
+
+        <!-- Back button and page title -->
+        <!-- Kinect view -->
+        <Grid Grid.Row="1" Margin="10,0,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.3*" />
                 <ColumnDefinition Width="0.7*" />
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Margin="30,0">
-                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />
+                <!--<TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />-->
                 <!-- TODO: change click event -->
-                <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
-                
+                <Button Content="Record" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+
             </StackPanel>
             <controls:KinectViewer Grid.Column="1" x:Name="viewer" Margin="20, 0, 60, 20"/>
 
             <Viewbox Grid.Column="1">
                 <Grid Width="512" Height="424">
-                    <Image Name="camera" />
-                    <Canvas Name="canvas" />
-                    
+                    <Image x:Name="camera" />
+                    <Canvas x:Name="canvas" />
+
                 </Grid>
             </Viewbox>
-            
-        </Grid>
-        <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
 
-        </ScrollViewer>
+        </Grid>
+
+        <!-- Back button and page title -->
+        <Grid Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="Back_Click"
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    AutomationProperties.Name="Back"
+                    AutomationProperties.AutomationId="BackButton"
+                    AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="Finger tracking" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Center" />
+        </Grid>
+
+        <!-- Kinect view -->
+        <!--<ScrollViewer Grid.Row="1" Padding="80,20,20,20" Margin="95,0,0,0">-->
+
+        <!--</ScrollViewer>-->
     </Grid>
 </Page>
