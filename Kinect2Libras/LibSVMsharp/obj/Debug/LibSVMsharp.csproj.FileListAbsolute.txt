@@ -1,7 +1,0 @@
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\bin\Debug\libsvm.dll
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\bin\Debug\LIBSVM_COPYRIGHT
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\bin\Debug\LibSVMsharp.dll
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\bin\Debug\LibSVMsharp.pdb
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\obj\Debug\LibSVMsharp.csprojResolveAssemblyReference.cache
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\obj\Debug\LibSVMsharp.dll
-C:\Users\Tortelli\Desktop\Projetos\SVM\LibSVMsharp\LibSVMsharp\obj\Debug\LibSVMsharp.pdb
