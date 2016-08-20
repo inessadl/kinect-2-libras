@@ -24,6 +24,7 @@ namespace Kinect2Libras
     /// </summary>
     public partial class FingerTrackingPage : Page
     {
+        private int index=0;
         private List<DepthPointEx> rightHandFingers = null;
         private KinectSensor _sensor = null;
         private InfraredFrameReader _infraredReader = null;
@@ -205,7 +206,6 @@ namespace Kinect2Libras
 
                 Thread calculaGesto = new Thread(recordGesture);
                 Thread time = new Thread(tempo);
-
                 //Inicia os threads
                 //Thread para capturaro gesto
                 calculaGesto.Start();
@@ -222,6 +222,7 @@ namespace Kinect2Libras
                     calculaGesto.Abort();
                     aborted = true;
                 }
+                this.saveScreen();
 
             }
 
@@ -271,7 +272,7 @@ namespace Kinect2Libras
                 this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
 
 
-            System.IO.File.AppendAllText(@"C:\Users\Lucas Tortelli\Desktop\FingerTracking\New\kinect-2-libras\Recorded\fingers.txt", aux);
+            System.IO.File.AppendAllText(@"fingers.txt", aux);
         }
 
         /// <summary>
@@ -341,6 +342,12 @@ namespace Kinect2Libras
         static void tempo()
         {
             System.Threading.Thread.Sleep(5000); 
+        }
+
+        private void saveScreen() {
+            //string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), ++this.index+"kinect-screenshot.jpg");
+            
+            //(viewer.Image as WriteableBitmap).Save(path);
         }
 
     }

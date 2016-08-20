@@ -17,11 +17,15 @@ using System.Windows.Shapes;
 
 namespace Kinect2Libras
 {
+
+    
     /// <summary>
     /// Interaction logic for CameraPage.xaml
     /// </summary>
     public partial class CameraPage : Page
     {
+
+        private int index = 0;
 
         KinectSensor _sensor;
         MultiSourceFrameReader _reader;
@@ -181,7 +185,7 @@ namespace Kinect2Libras
         // captura a tela e salva em um arquivo .jpg
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "kinect-screenshot.jpg");
+            string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), ++this.index+"kinect-screenshot.jpg");
 
             (viewer.Image as WriteableBitmap).Save(path);
         }

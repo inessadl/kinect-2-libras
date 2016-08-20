@@ -3,6 +3,7 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:controls="clr-namespace:LightBuzz.Vitruvius.Controls;assembly=LightBuzz.Vitruvius"
       xmlns:local="clr-namespace:Kinect2Libras"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
@@ -42,6 +43,7 @@
                 <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />
                 <!-- TODO: change click event -->
                 <Button Content="Gravar" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+                
 
             </StackPanel>
 
@@ -50,10 +52,11 @@
                 <Grid Width="512" Height="424">
                     <Image Name="camera" />
                     <Canvas Name="canvas" />
+                    
                 </Grid>
             </Viewbox>
+            <controls:KinectViewer Grid.Column="1" x:Name="viewer" Margin="20, 0, 60, 20"/>
         </Grid>
-        
         <ScrollViewer Grid.Row="1" Padding="80,20,20,20">
 
         </ScrollViewer>
