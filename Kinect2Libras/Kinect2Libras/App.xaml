@@ -63,6 +63,29 @@
             </Setter>
         </Style>
 
+        <!-- =========== Button: Recording ============== -->
+        <Style x:Key="Recording" TargetType="Button">
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Background" Value="#990000" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="FontWeight" Value="Light" />
+            <Setter Property="Margin" Value="20" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <!-- Template to disable mouse hover-->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
         <!-- =========== Footer: Main Page ============== -->
         <Style x:Key="FooterButton" TargetType="Button" BasedOn="{StaticResource MainPageButton}">
             <Setter Property="Background" Value="Transparent" />

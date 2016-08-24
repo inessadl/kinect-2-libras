@@ -201,6 +201,7 @@ namespace Kinect2Libras
         {
             bool aborted = false;
             
+           
             while (!aborted && !this.gestureRecorded)
             {
 
@@ -258,7 +259,7 @@ namespace Kinect2Libras
             
             int answer = 2;
 
-            Console.WriteLine(this.rightHandFingers.Count);
+            //Console.WriteLine(this.rightHandFingers.Count);
 
 
             String aux = "[" + this.rightHandFingers[0].X + "-" + this.rightHandFingers[0].Y + "-" + this.rightHandFingers[1].X 
@@ -271,8 +272,13 @@ namespace Kinect2Libras
                 this.rightHandFingers[9].X + "-" + this.rightHandFingers[9].Y + "-" +
                 this.rightHandFingers[10].X + "-" + this.rightHandFingers[10].Y + "-" + answer + "]\n";
 
+            //System.IO.File.AppendAllText(@"fingers.txt", aux);
 
-            System.IO.File.AppendAllText(@"fingers.txt", aux);
+            String fileName = string.Format("{0:yyyy-MM-dd_hh-mm-ss-fff}", DateTime.Now);
+            System.IO.File.AppendAllText(@fileName + ".txt", aux);
+
+
+           
         }
 
         /// <summary>

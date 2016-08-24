@@ -29,7 +29,7 @@
             <StackPanel Grid.Column="0" Margin="30,0">
                 <!--<TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Text="Gravação" Margin="20" />-->
                 <!-- TODO: change click event -->
-                <Button Content="Record" Style="{StaticResource MainPageButton}" HorizontalAlignment="Stretch" Click="Record_Click" />
+                <Button x:Name="recordButton" Content="Record" Style="{StaticResource Recording}" HorizontalAlignment="Stretch" Click="Record_Click" />
 
             </StackPanel>
             <controls:KinectViewer Grid.Column="1" x:Name="viewer" Margin="20, 0, 60, 20"/>
